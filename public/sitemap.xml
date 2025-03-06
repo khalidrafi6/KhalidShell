@@ -8,4 +8,9 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

@@ -64,7 +64,11 @@
 
 <link rel="stylesheet" href="http://localhost:1313/terminal.css">
 
+<link disabled id="dark-mode-theme" rel="stylesheet" href="http://localhost:1313/terminal-dark.css">
 
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -122,6 +126,22 @@
 
     </div>
     
+        <button><a id="dark-mode-toggle" class="fas fa-moon"></a></button>
+        <script src="http://localhost:1313/dark.js" type="text/javascript"></script>
+    
+      <ul class="menu menu--desktop menu--language-selector">
+  <li class="menu__trigger">বাংলা&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        <li><a href="http://localhost:1313/bn/">বাংলা</a></li>
+      
+        <li><a href="http://localhost:1313/en/">English</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
     
   </div>
   
@@ -221,13 +241,17 @@
 
   
     <footer class="footer">
-  <div class="footer__inner">
+  <div class="footer_inner">
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    <div class="copyright">
+      <span>© 2025 Made by Khalid | Powered by <a href="https://gohugo.io">Hugo</a> | Theme made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+    </div>
     
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
+    <div class="analytics">
+      
+      <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      This website uses <a href="https://simpleanalytics.com/">Simple Analytics</a> to collect anonymized usage statistics. You can learn more in their website.
+    </div>
   </div>
 </footer>
 

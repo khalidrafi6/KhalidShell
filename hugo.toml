@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = true
     languageName = 'বাংলা'    
     weight = 1
     [languages.bn.params]
-      subtitle = 'বাংলা'
+      subtitle = "টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান" 
       owner = "খালিদ"
       keywords = ""
       copyright = ""
@@ -42,8 +42,8 @@ defaultContentLanguageInSubdir = true
         logoText = "khalid@blog:~$"
         logoHomeLink = "/"
 
-      # [languages.bn.menu]
-      #   [[languages.bn.menu.main]]
+       # [languages.bn.menu]
+       #   [[languages.bn.menu.main]]
       #     identifier = "about"
       #     name = "About"
       #     url = "/about"
@@ -51,36 +51,36 @@ defaultContentLanguageInSubdir = true
       #     identifier = "showcase"
       #     name = "Showcase"
       #     url = "/showcase"
-#   [languages.en]
-# contentDir = 'content/en'
-#     disabled = false
-#     languageCode = 'en-US'
-#     languageDirection = 'ltr'
-#     languageName = 'English'
-#     title = "Khalid's Console"
-#     weight = 2
-#
-#     [languages.en.params]
-#       subtitle = "A simple, retro theme for Hugo"
-#       owner = ""
-#       keywords = ""
-#       copyright = ""
-#       menuMore = "Show more"
-#       readMore = "Read more"
-#       readOtherPosts = "Read other posts"
-#       newerPosts = "Newer posts"
-#       olderPosts = "Older posts"
-#       missingContentMessage = "Page not found..."
-#       missingBackButtonLabel = "Back to home page"
-#       minuteReadingTime = "min read"
-#       words = "words"
-#
-#       [languages.en.params.logo]
-#         logoText = "Khalid's Console"
-#         logoHomeLink = "/"
-#
-#       [languages.en.menu]
-#         [[languages.en.menu.main]]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = "Khalid's Shell"
+    weight = 2
+
+     [languages.en.params]
+       subtitle = "Tutorials, Tips & Tricks, Troubleshooting"
+       owner = ""
+       keywords = ""
+       copyright = ""
+       menuMore = "Show more"
+       readMore = "Read more"
+       readOtherPosts = "Read other posts"
+       newerPosts = "Newer posts"
+       olderPosts = "Older posts"
+       missingContentMessage = "Page not found..."
+       missingBackButtonLabel = "Back to home page"
+       minuteReadingTime = "min read"
+       words = "words"
+
+       [languages.en.params.logo]
+         logoText = "khalid@blog:~$"
+         logoHomeLink = "/"
+
+       # [languages.en.menu]
+       #   [[languages.en.menu.main]]
 #           identifier = "about"
 #           name = "About"
 #           url = "/about"
@@ -98,7 +98,7 @@ defaultContentLanguageInSubdir = true
   showMenuItems = 2
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
   fullWidthTheme = true

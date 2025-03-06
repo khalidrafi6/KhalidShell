@@ -7,7 +7,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="বাংলা" />
+<meta name="description" content="টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -63,7 +63,11 @@
 
 <link rel="stylesheet" href="http://localhost:1313/terminal.css">
 
+<link disabled id="dark-mode-theme" rel="stylesheet" href="http://localhost:1313/terminal-dark.css">
 
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -77,7 +81,7 @@
 <meta property="og:locale" content="bn" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="খালিদের শেল">
-<meta property="og:description" content="বাংলা" />
+<meta property="og:description" content="টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান" />
 <meta property="og:url" content="http://localhost:1313/bn/" />
 <meta property="og:site_name" content="খালিদের শেল" />
 
@@ -117,6 +121,22 @@
 
     </div>
     
+        <button><a id="dark-mode-toggle" class="fas fa-moon"></a></button>
+        <script src="http://localhost:1313/dark.js" type="text/javascript"></script>
+    
+      <ul class="menu menu--desktop menu--language-selector">
+  <li class="menu__trigger">বাংলা&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        <li><a href="http://localhost:1313/bn/">বাংলা</a></li>
+      
+        <li><a href="http://localhost:1313/en/">English</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
     
   </div>
   
@@ -128,11 +148,11 @@
   
     <div class="index-content framed">
       <h1 id="খলদর-শল-আপনক-সবগতম">খালিদের শেলে আপনাকে স্বাগতম</h1>
-<p>আমি <strong>খালিদ</strong>, প্রযুক্তিতে আগ্রহী একজন লেখক। আর আপনি এখন প্রবেশ করেছেন আমার শেলে। এই জায়গায় আপনি আমার প্রযুক্তি দক্ষতা দেখতে পাবেন। আমার বিশেষ করে লিনাক্স, ওপেন সোর্স ও প্রাইভেসির বিষয়ে ঝোঁক রয়েছে। এখানে আপনি বিভিন্ন ধরনের লেখা পাবেন:</p>
+<p>আমি <strong>খালিদ</strong>, প্রযুক্তিতে আগ্রহী একজন লেখক। আর আপনি এখন প্রবেশ করেছেন আমার শেলে। এখানে আপনি আমার প্রযুক্তি দক্ষতা দেখতে পাবেন। আমার বিশেষ করে লিনাক্স, ওপেন সোর্স ও প্রাইভেসির বিষয়ে ঝোঁক রয়েছে। এখানে আপনি বিভিন্ন ধরনের লেখা পাবেন:</p>
 <ul>
 <li><strong>টিউটোরিয়াল</strong>: লিনাক্স ও অন্যান্য প্রযুক্তিতে বিভিন্ন কাজ সম্পাদনের প্রয়োজনীয় নির্দেশনা।</li>
 <li><strong>পরামর্শ ও কৌশল</strong>: প্রযুক্তি ব্যবহার করে নিজের কাজ সহজে ও দক্ষভাবে সম্পন্ন করার কৌশল।</li>
-<li><strong>সমস্যার সমাধান</strong>: কম্পিউটার, মোবাইল ইত্যাদির বিভিন্ন সমস্যার প্রয়োজনীয় সমাধান।</li>
+<li><strong>সমস্যার সমাধান</strong>: কম্পিউটার, মোবাইল ইত্যাদির বিভিন্ন সমস্যার সমাধান।</li>
 </ul>
 <p>আমার লক্ষ্য হলো, প্রযুক্তি জগতকে আপনার জন্য সহজ, বোধগম্য ও আনন্দদায়ক করে তোলা।  আমি বিশেষ করে বাংলা ভাষায় প্রযুক্তি চর্চার প্রসার বাড়াতে চাই।</p>
 <p>চলুন, শেল খুলে প্রযুক্তি জগত ঘুরে বেড়াই!</p>
@@ -220,13 +240,17 @@
 
   
     <footer class="footer">
-  <div class="footer__inner">
+  <div class="footer_inner">
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    <div class="copyright">
+      <span>© 2025 Made by Khalid | Powered by <a href="https://gohugo.io">Hugo</a> | Theme made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+    </div>
     
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
+    <div class="analytics">
+      
+      <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      This website uses <a href="https://simpleanalytics.com/">Simple Analytics</a> to collect anonymized usage statistics. You can learn more in their website.
+    </div>
   </div>
 </footer>
 
