@@ -3,6 +3,24 @@ footer {
   margin: 0 auto;
 }
 
+.footer__inner {
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  .footer__inner {
+    width: 60vw;
+  }
+}
+
+.footer .copyright span {
+  white-space: wrap;
+}
+
+.analytics {
+  margin: 10px 10px 0;
+}
+
 a[href="mailto:khalidrafi.twzde@slmail.me"] {
   text-decoration: none;
 }

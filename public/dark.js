@@ -18,3 +18,13 @@ function setTheme(mode) {
         toggle.className = "fas fa-moon";
     }
 }
+
+// the default theme is light
+let savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+setTheme(savedTheme);
+
+function setTheme(mode) {
+    localStorage.setItem("dark-mode-storage", mode);
+
+    // same as above
+}
