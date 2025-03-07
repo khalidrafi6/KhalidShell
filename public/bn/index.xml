@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>খালিদের শেল</title>
-    <link>http://localhost:37365/bn/</link>
+    <link>http://localhost:1313/bn/</link>
     <description>Recent content on খালিদের শেল</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>bn-BD</language>
-    <lastBuildDate>Sat, 01 Mar 2025 00:05:03 +0600</lastBuildDate><atom:link href="http://localhost:37365/bn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Mar 2025 00:05:03 +0600</lastBuildDate><atom:link href="http://localhost:1313/bn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>কম্পিউটার ছাড়াই যেভাবে প্রোগ্রামিং করবেন</title>
-      <link>http://localhost:37365/bn/posts/coding-without-computer/</link>
+      <link>http://localhost:1313/bn/posts/coding-without-computer/</link>
       <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
       
-      <guid>http://localhost:37365/bn/posts/coding-without-computer/</guid>
+      <guid>http://localhost:1313/bn/posts/coding-without-computer/</guid>
       <description>&lt;p&gt;অনেকে হয়তো প্রোগ্রামিং শিখতে চান, কিন্তু কম্পিউটার নেই বলে শিখতে পারেন না।  তাদের জন্য সুসংবাদ হচ্ছে, আপনি মোবাইল দিয়েও প্রোগ্রামিং শিখতে পারবেন। চলুন দেখে নিই কীভাবে:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;১. অনলাইন কোড এডিটর ও কম্পাইলার:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;মোবাইলে প্রোগ্রামিং করার সবচেয়ে সহজ উপায় হচ্ছে অনলাইন কোড এডিটর ও কম্পাইলার। আপনার সার্চ ইঞ্জিনে (অথবা AI chatbot এ) &lt;strong&gt;online code editor&lt;/strong&gt; বা &lt;strong&gt;online compiler&lt;/strong&gt; লিখে সার্চ দিলে অনেক অপশন পেয়ে যাবেন, যেমন &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, যেটা একটা Front-end Web Development Environment. এটার সুবিধা হচ্ছে আপনি ব্রাউজার থেকেই কোডিং করতে পারবেন। কোন বাড়তি অ্যাপ ইন্সটল করতে হবে না। আপনার মোবাইল খুব উঁচুমানের না হলেও কাজ চালিয়ে নিতে পারবেন। তবে মোবাইলটাতে অবশ্যই ইন্টারনেট ব্রাউজ করার সুবিধা থাকতে হবে। যদি সার্চ ইঞ্জিনে আপনার প্রোগ্রামিং ল্যাঙ্গুয়েজের জন্য সাপোর্টেড কোড এডিটর বা কম্পাইলার খুঁজে পেতে সমস্যা হয়, তবে উক্ত ল্যাঙ্গুয়েজটির নাম উল্লেখ করে সার্চ করুন।&lt;/p&gt;</description>
@@ -26,10 +26,10 @@
     
     <item>
       <title>যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের কিছু সমস্যা সামলাবেন</title>
-      <link>http://localhost:37365/bn/posts/sysrq-linux/</link>
+      <link>http://localhost:1313/bn/posts/sysrq-linux/</link>
       <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
       
-      <guid>http://localhost:37365/bn/posts/sysrq-linux/</guid>
+      <guid>http://localhost:1313/bn/posts/sysrq-linux/</guid>
       <description>&lt;p&gt;লিনাক্সে &lt;strong&gt;SysRq Key&lt;/strong&gt; এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন &lt;strong&gt;SysRq&lt;/strong&gt; ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।&lt;/p&gt;
 &lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সহকারে কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; দ্বারা &lt;strong&gt;SysRq&lt;/strong&gt; এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;</description>
       <content>&lt;p&gt;লিনাক্সে &lt;strong&gt;SysRq Key&lt;/strong&gt; এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন &lt;strong&gt;SysRq&lt;/strong&gt; ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।&lt;/p&gt;
