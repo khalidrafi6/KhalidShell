@@ -5,6 +5,7 @@ footer {
 
 .footer__inner {
   flex-direction: column;
+  width: 100vw;
 }
 
 @media (max-width: 500px) {
