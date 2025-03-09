@@ -2,14 +2,14 @@
 <html lang="bn">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের কিছু সমস্যা সামলাবেন :: খালিদের শেল</title>
+    <title>যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন :: খালিদের শেল</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="লিনাক্সে SysRq Key এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে SysRq দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন SysRq ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।
 আপনার কার্নেল SysRq সহকারে কম্পাইল করা থাকলে, /proc/sys/kernel/sysrq দ্বারা SysRq এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। /proc/sys/kernel/sysrq ফাইলে নিচের মানগুলো থাকতে পারে:
 " />
-<meta name="keywords" content=", " />
+<meta name="keywords" content="লিনাক্স, SysRq, কম্পিউটার" />
 
   <meta name="robots" content="noodp" />
 
@@ -81,7 +81,7 @@
 
 <meta property="og:locale" content="bn" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের কিছু সমস্যা সামলাবেন">
+<meta property="og:title" content="যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন">
 <meta property="og:description" content="লিনাক্সে SysRq Key এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে SysRq দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন SysRq ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।
 আপনার কার্নেল SysRq সহকারে কম্পাইল করা থাকলে, /proc/sys/kernel/sysrq দ্বারা SysRq এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। /proc/sys/kernel/sysrq ফাইলে নিচের মানগুলো থাকতে পারে:
 " />
@@ -138,10 +138,18 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="http://localhost:1313/bn/posts/sysrq-linux/">যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের কিছু সমস্যা সামলাবেন</a>
+    <a href="http://localhost:1313/bn/posts/sysrq-linux/">যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন</a>
   </h1>
   <div class="post-meta"><time class="post-date">2025-03-01</time></div>
 
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/bn/tags/%E0%A6%B2%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8/">লিনাক্স</a>&nbsp;
+      
+      #<a href="http://localhost:1313/bn/tags/%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%93-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%A8/">সমস্যা ও সমাধান</a>&nbsp;
+      
+    </span>
   
   
 
@@ -233,11 +241,7 @@
       <span>© 2025 Made by Khalid | Powered by <a href="https://gohugo.io">Hugo</a> | Theme made by <a href="https://github.com/panr" target="_blank">panr</a></span>
     </div>
     
-    <div class="analytics">
-      
-      <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-      This website uses <a href="https://simpleanalytics.com/">Simple Analytics</a> to collect anonymized usage statistics. You can learn what data they collect in their website.
-    </div>
+    
   </div>
 </footer>
 

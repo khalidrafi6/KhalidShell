@@ -1,11 +1,12 @@
 +++
-title = "যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের কিছু সমস্যা সামলাবেন"
+title = "যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন"
 date = "2025-03-01T00:05:03+06:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
-keywords = ["", ""]
+tags = ["লিনাক্স", "সমস্যা ও সমাধান"]
+keywords = ["লিনাক্স", "SysRq", "কম্পিউটার"]
 description = ""
 showFullContent = false
 readingTime = false

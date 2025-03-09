@@ -12,10 +12,14 @@ footer {
   white-space: wrap;
 }
 
-.analytics {
-  margin: 10px 10px 0;
+/*.analytics {*/
+/*  margin-top: 10px;*/
+/*}*/
+
+a {
+  text-decoration: none;
 }
 
-a[href="mailto:khalidrafi.twzde@slmail.me"] {
-  text-decoration: none;
+.pagination__buttons a {
+  white-space: normal;
 }
