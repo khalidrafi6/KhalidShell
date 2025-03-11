@@ -14,6 +14,12 @@ pagination.pagerSize = 5
 defaultContentLanguage = 'bn'
 defaultContentLanguageInSubdir = true
 
+[outputs]
+  home = ['html', 'json']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
 [languages]
   [languages.bn]
     contentDir = 'content/bn'
@@ -21,10 +27,10 @@ defaultContentLanguageInSubdir = true
     languageCode = 'bn-BD'
     title = "খালিদের শেল"
     languageDirection = 'ltr'
-    languageName = 'বাংলা'    
+    languageName = 'বাংলা'
     weight = 1
     [languages.bn.params]
-      subtitle = "টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান" 
+      subtitle = "টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান"
       owner = "খালিদ"
       keywords = ""
       copyright = ""
@@ -42,15 +48,30 @@ defaultContentLanguageInSubdir = true
         logoText = "khalid@blog:~$"
         logoHomeLink = "/"
 
-       # [languages.bn.menu]
-       #   [[languages.bn.menu.main]]
-      #     identifier = "about"
-      #     name = "About"
-      #     url = "/about"
-      #   [[languages.bn.menu.main]]
-      #     identifier = "showcase"
-      #     name = "Showcase"
-      #     url = "/showcase"
+        # [languages.bn.menu]
+        #   # [[languages.bn.menu.main]]
+        #   #   identifier = "about"
+        #   #   name = "আমার পরিচয়"
+        #   #   url = "/about"
+        #   [[languages.bn.menu.main]]
+        #     identifier = "posts"
+        #     name = "সকল পোস্ট"
+        #     weight = 1
+        #     url = "/posts"
+        #   [[languages.bn.menu.main]]
+        #     identifier = "categories"
+        #     name = "বিষয়"
+        #     weight = 2
+        #     url = "/categories"
+          # [[languages.bn.menu.main]]
+          #   identifier = "contact"
+          #   name = "যোগাযোগ"
+          #   url = "/about"
+
+  #   [[languages.bn.menu.main]]
+  #     identifier = "showcase"
+  #     name = "Showcase"
+  #     url = "/showcase"
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -60,34 +81,34 @@ defaultContentLanguageInSubdir = true
     title = "Khalid's Shell"
     weight = 2
 
-     [languages.en.params]
-       subtitle = "Tutorials, Tips & Tricks, Troubleshooting"
-       owner = ""
-       keywords = ""
-       copyright = ""
-       menuMore = "Show more"
-       readMore = "Read more"
-       readOtherPosts = "Read other posts"
-       newerPosts = "Newer posts"
-       olderPosts = "Older posts"
-       missingContentMessage = "Page not found..."
-       missingBackButtonLabel = "Back to home page"
-       minuteReadingTime = "min read"
-       words = "words"
+    [languages.en.params]
+      subtitle = "Tutorials, Tips & Tricks, Troubleshooting"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
 
-       [languages.en.params.logo]
-         logoText = "khalid@blog:~$"
-         logoHomeLink = "/"
+      [languages.en.params.logo]
+        logoText = "khalid@blog:~$"
+        logoHomeLink = "/"
 
-       # [languages.en.menu]
-       #   [[languages.en.menu.main]]
-#           identifier = "about"
-#           name = "About"
-#           url = "/about"
-#         [[languages.en.menu.main]]
-#           identifier = "showcase"
-#           name = "Showcase"
-#           url = "/showcase"
+        # [languages.en.menu]
+        #   [[languages.en.menu.main]]
+        #           identifier = "about"
+        #           name = "About"
+        #           url = "/about"
+        #         [[languages.en.menu.main]]
+        #           identifier = "showcase"
+        #           name = "Showcase"
+        #           url = "/showcase"
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -146,17 +167,17 @@ defaultContentLanguageInSubdir = true
   [params.contact]
     email = 'khalidrafi@duck.com'
 
-# [params.twitter]
-#   # set Twitter handles for Twitter cards
-#   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-#   # do not include @
-#   creator = ""
-#   site = ""
+    # [params.twitter]
+    #   # set Twitter handles for Twitter cards
+    #   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+    #   # do not include @
+    #   creator = ""
+    #   site = ""
 
-# [module]
-  # In case you would like to make changes to the theme and keep it locally in you repository,
-  # uncomment the line below (and correct the local path if necessary).
-  # --
-   # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
-# [[module.imports]]
-  # path = 'github.com/panr/hugo-theme-terminal/v4'
+    # [module]
+    # In case you would like to make changes to the theme and keep it locally in you repository,
+    # uncomment the line below (and correct the local path if necessary).
+    # --
+    # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
+    # [[module.imports]]
+    # path = 'github.com/panr/hugo-theme-terminal/v4'

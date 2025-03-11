@@ -1,0 +1,25 @@
+
+.footer {
+  text-align: center;
+}
+
+.footer__inner {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer .copyright span {
+  white-space: wrap;
+}
+
+/*.analytics {*/
+/*  margin-top: 10px;*/
+/*}*/
+
+a {
+  text-decoration: none;
+}
+
+.pagination__buttons a {
+  white-space: normal;
+}

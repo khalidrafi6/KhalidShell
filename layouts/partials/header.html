@@ -6,8 +6,9 @@
     {{ if len $.Site.Menus }}
       {{ partial "mobile-menu.html" . }}
     {{ end }}
-        <button id="dark-mode-toggle" class="fas fa-moon"></button>
-        <script src="{{ "dark.js" | absURL }}" type="text/javascript"></script>
+    <div id="docsearch"></div>
+    <button id="dark-mode-toggle" class="fas fa-moon"></button>
+    <script src="{{ "dark.js" | absURL }}" type="text/javascript"></script>
     {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
       {{ partial "language-menu.html" . }}
     {{ end }}

@@ -15,9 +15,11 @@ function setTheme(mode) {
     if (mode === "dark") {
         darkTheme.disabled = false;
         toggle.className = "fas fa-sun";
+        document.documentElement.setAttribute("data-theme", "dark");
     } else if (mode === "light") {
         darkTheme.disabled = true;
         toggle.className = "fas fa-moon";
+        document.documentElement.removeAttribute("data-theme");
     }
 }
 
