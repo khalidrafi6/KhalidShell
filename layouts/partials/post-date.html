@@ -1,0 +1,17 @@
+{{- $date := .Date -}}
+{{- with .Params.dateFormat -}}
+  {{- $date | time.Format . -}}
+{{- else -}}
+  {{- with .Site.Params.dateFormat -}}
+    {{- $date | time.Format . -}}
+  {{- else -}}
+    {{- $date = $date.Format "02-01-2006" -}}
+    {{ $date = split $date "" }}
+    {{ $tdate := slice }}
+    {{ range $date }}
+    {{ $t := T . }}
+    {{ $tdate = $tdate | append $t }}
+    {{ end }}
+    {{ delimit $tdate "" }}
+    {{- end -}}
+  {{- end -}}

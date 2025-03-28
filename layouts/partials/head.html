@@ -11,31 +11,20 @@
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}" />
 
-{{ template "_internal/google_analytics.html" . }}
+<!--To reduce both DNS lookup and connection time. dns-prefetch is for compatibility-->
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
+<link href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css" rel="preconnect" crossorigin>
 
+{{ $default := resources.Match "css/*.css" | resources.Concat "default.css" }}
 <!--INFINI Pizza Search stylesheet-->
-<link rel="stylesheet" crossorigin href="/assets/index-C1z1vz3D.css">
+{{ $search := resources.Get "search.css" }}
+{{ $style := resources.Get "style.css" }}
+{{ $css := slice $default $search $style | resources.Concat "styles.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.Permalink }}">
 
-{{ $css := resources.Match "css/*.css" }}
-{{ range $css }}
-  {{ $styles := . | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}">
-{{ end }}
-<!-- Custom Terminal.css styles -->
-{{ if (fileExists "static/terminal.css") -}}
-  <link rel="stylesheet" href="{{ "terminal.css" | absURL }}">
-{{- end }}
-<!-- Custom Terminal.css styles for dark mode -->
-{{ if (fileExists "static/terminal-dark.css") -}}
-  <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "terminal-dark.css" | absURL }}">
-{{- end }}
-<!-- Custom CSS to override theme properties (/static/style.css) -->
-{{ if (fileExists "static/style.css") -}}
-  <link rel="stylesheet" href="{{ "style.css" | absURL }}">
-{{- end }}
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Custom styles for dark mode -->
+{{ $dark := resources.Get "dark.css" | minify | fingerprint }}
+<link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $dark.Permalink }}">
 
 <!-- Icons -->
 <link rel="shortcut icon" href="{{ "favicon.png" | absURL }}">
@@ -84,6 +73,3 @@
 {{ with .OutputFormats.Get "json" }}
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
 {{ end }}
-
-<!-- Extended head section-->
-{{ partial "extended_head.html" . }}

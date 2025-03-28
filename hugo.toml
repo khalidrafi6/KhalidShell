@@ -30,10 +30,10 @@ defaultContentLanguageInSubdir = true
     languageName = 'বাংলা'
     weight = 1
     [languages.bn.params]
-      subtitle = "টিউটোরিয়াল, পরামর্শ ও কৌশল,সমস্যার সমাধান"
+      subtitle = "খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান"
       owner = "খালিদ"
       keywords = ""
-      copyright = ""
+      copyright = "© ২০২৫ খালিদ"
       menuMore = "আরো দেখুন"
       readMore = "আরো পড়ুন"
       readOtherPosts = "অন্য পোস্টগুলো দেখুন"
@@ -43,35 +43,46 @@ defaultContentLanguageInSubdir = true
       missingBackButtonLabel = "হোম পেজে ফিরে যান"
       minuteReadingTime = "min read"
       words = "words"
+      tagPrepend = "বিষয়"
 
       [languages.bn.params.logo]
         logoText = "khalid@blog:~$"
         logoHomeLink = "/"
 
-        # [languages.bn.menu]
-        #   # [[languages.bn.menu.main]]
-        #   #   identifier = "about"
-        #   #   name = "আমার পরিচয়"
-        #   #   url = "/about"
-        #   [[languages.bn.menu.main]]
-        #     identifier = "posts"
-        #     name = "সকল পোস্ট"
-        #     weight = 1
-        #     url = "/posts"
-        #   [[languages.bn.menu.main]]
-        #     identifier = "categories"
-        #     name = "বিষয়"
-        #     weight = 2
-        #     url = "/categories"
-          # [[languages.bn.menu.main]]
-          #   identifier = "contact"
-          #   name = "যোগাযোগ"
-          #   url = "/about"
+        [languages.bn.menus]
+          # [[languages.bn.menus.main]]
+          #   identifier = "home"
+          #   name = "শুরু"
+          #   weight = 1
+          #   # url = ""        
+          [[languages.bn.menus.main]]
+            identifier = "posts"
+            name = "সকল পোস্ট"
+            weight = 1
+            # url = "posts"
+            pageRef = "/posts"
+          [[languages.bn.menus.main]]
+            identifier = "tags"
+            name = "বিষয়াবলি"
+            weight = 2
+            # url = "categories"
+            pageRef = "/tags"
+           # [[languages.bn.menus.main]]
+           #   identifier = "about"
+           #   name = "আমার পরিচয়"
+           #   # url = "about"
+           #   pageRef = "/about"
 
-  #   [[languages.bn.menu.main]]
-  #     identifier = "showcase"
-  #     name = "Showcase"
-  #     url = "/showcase"
+        #    [[languages.bn.menu.main]]
+        #   identifier = "contact"
+        #   name = "যোগাযোগ"
+        #   url = "/contact"
+
+        #   [[languages.bn.menu.main]]
+        #     identifier = "showcase"
+        #     name = "Showcase"
+        #     url = "/showcase"
+        
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -82,7 +93,7 @@ defaultContentLanguageInSubdir = true
     weight = 2
 
     [languages.en.params]
-      subtitle = "Tutorials, Tips & Tricks, Troubleshooting"
+      subtitle = "Tech Tutorials, Tips & Tricks, Troubleshooting from Khalid"
       owner = ""
       keywords = ""
       copyright = ""
@@ -95,6 +106,7 @@ defaultContentLanguageInSubdir = true
       missingBackButtonLabel = "Back to home page"
       minuteReadingTime = "min read"
       words = "words"
+      tagPrepend = "Posts for"
 
       [languages.en.params.logo]
         logoText = "khalid@blog:~$"
@@ -116,10 +128,10 @@ defaultContentLanguageInSubdir = true
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
   fullWidthTheme = true
@@ -130,7 +142,7 @@ defaultContentLanguageInSubdir = true
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
   # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+  # autoCover = true
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
@@ -165,7 +177,7 @@ defaultContentLanguageInSubdir = true
   # dateFormat = "2006-01-02 3:04:06 PM MST"
 
   [params.contact]
-    email = 'khalidrafi@duck.com'
+    email = 'khalidrafi.twzde@slmail.me'
 
     # [params.twitter]
     #   # set Twitter handles for Twitter cards

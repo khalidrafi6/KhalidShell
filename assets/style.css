@@ -1,0 +1,61 @@
+.menu--desktop {
+  align-items: center;
+  justify-content: center;
+  column-gap: 7%;
+}
+
+.menu--desktop li {
+  margin-bottom: 0;
+}
+
+#docsearch {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+.docsearch-btn {
+  border: 2px solid var(--accent);
+}
+
+.docsearch-btn-key {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+.docsearch-btn-keys {
+    font: initial; /* This sets font-size, font-style, font-weight, font-variant, font-stretch, and line-height to their initial values */
+}
+
+.dark-mode-toggle {  
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  /*margin-left: 10px;*/
+  padding: 10px 10px 8px;
+  line-height: 33px;
+  border: none;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__inner {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer .copyright span {
+  white-space: wrap;
+}
+
+/*.analytics {*/
+/*  margin-top: 10px;*/
+/*}*/
+
+a {
+  text-decoration: none;
+}
+
+.pagination__buttons a {
+  white-space: normal;
+}

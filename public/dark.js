@@ -1,26 +1,39 @@
-let toggle = document.getElementById("dark-mode-toggle");
+let toggles = document.getElementsByClassName("dark-mode-toggle");
 let darkTheme = document.getElementById("dark-mode-theme");
 
-toggle.addEventListener("click", () => {
-    if (toggle.className === "fas fa-moon") {
-        setTheme("dark");
-    } else if (toggle.className === "fas fa-sun") {
-        setTheme("light");
+Array.from(toggles).forEach(toggle => {
+  toggle.addEventListener("click", () => {
+    if (toggle.classList.contains("moon")) {
+      setTheme("dark");
+    } else if (toggle.classList.contains("sun")) {
+      setTheme("light");
     }
+  });
+
 });
 
 function setTheme(mode) {
-    localStorage.setItem("dark-mode-storage", mode);
+  localStorage.setItem("dark-mode-storage", mode);
 
-    if (mode === "dark") {
-        darkTheme.disabled = false;
-        toggle.className = "fas fa-sun";
-        document.documentElement.setAttribute("data-theme", "dark");
-    } else if (mode === "light") {
-        darkTheme.disabled = true;
-        toggle.className = "fas fa-moon";
-        document.documentElement.removeAttribute("data-theme");
-    }
+  if (mode === "dark") {
+    darkTheme.disabled = false;
+    Array.from(toggles).forEach(toggle => {
+      toggle.classList.remove("moon");
+      toggle.classList.add("sun");
+
+      toggle.innerHTML = '☀️';
+    });
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else if (mode === "light") {
+    darkTheme.disabled = true;
+    Array.from(toggles).forEach(toggle => {
+      toggle.classList.remove("sun");
+      toggle.classList.add("moon");
+
+      toggle.innerHTML = '🌗';
+    });
+    document.documentElement.removeAttribute("data-theme");
+  }
 }
 
 // the default theme is light
