@@ -108,7 +108,7 @@ weight = 2
 subtitle = "Tech Tutorials, Tips & Tricks, Troubleshooting from Khalid"
 owner = ""
 keywords = ""
-copyright = ""
+copyright = "© 2025 Khalid"
 menuMore = "Show more"
 readMore = "Read more"
 readOtherPosts = "Read other posts"
@@ -124,8 +124,34 @@ tagPrepend = "Posts for"
 logoText = "khalid@blog:~$"
 logoHomeLink = "/"
 
-# [languages.en.menu]
-#   [[languages.en.menu.main]]
+[languages.en.menus]
+[[languages.en.menus.main]]
+identifier = "posts"
+name = "Posts"
+weight = 1
+pageRef = "/posts"
+[[languages.en.menus.main]]
+identifier = "tags"
+name = "Topics"
+weight = 2
+pageRef = "/tags"
+[[languages.en.menus.main]]
+identifier = "services"
+name = "Services"
+weight = 3
+pageRef = "/services"
+[[languages.en.menus.main]]
+identifier = "about"
+name = "About"
+weight = 4
+pageRef = "/about"
+[[languages.en.menus.main]]
+identifier = "privacy"
+name = "Privacy Note"
+weight = 5
+pageRef = "/privacy"
+
+# [[languages.en.menu.main]]
 #           identifier = "about"
 #           name = "About"
 #           url = "/about"
