@@ -147,7 +147,7 @@ weight = 4
 pageRef = "/about"
 [[languages.en.menus.main]]
 identifier = "privacy"
-name = "Privacy Note"
+name = "Privacy Notice"
 weight = 5
 pageRef = "/privacy"
 

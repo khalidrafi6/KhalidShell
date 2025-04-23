@@ -95,6 +95,18 @@
     <loc>http://localhost:1313/en/tags/troubleshooting/</loc>
     <lastmod>2025-03-01T00:05:03+06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/about/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -105,6 +117,18 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/privacy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/privacy/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>
