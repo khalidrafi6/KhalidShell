@@ -1,6 +1,5 @@
 +++
 date = '2025-03-29T15:17:22+06:00'
-draft = true
 title = 'How to install desktop extensions in Firefox for Android'
 +++
 Firefox has some nice extensions we regularly use on desktop. But sadly, many extensions are not available on Android. So, we can't enjoy the same Firefox on Android which we use on our computers. Howeever, there is a workaround to install desktop extensions which are unavailable on Android. Let me show how:

@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -12,6 +13,22 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</loc>
+    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>

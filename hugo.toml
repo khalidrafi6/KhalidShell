@@ -15,181 +15,193 @@ defaultContentLanguage = 'bn'
 defaultContentLanguageInSubdir = true
 
 [outputs]
-  home = ['html', 'json']
+home = ['html', 'json']
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [languages]
-  [languages.bn]
-    contentDir = 'content/bn'
-    disabled = false
-    languageCode = 'bn-BD'
-    title = "খালিদের শেল"
-    languageDirection = 'ltr'
-    languageName = 'বাংলা'
-    weight = 1
-    [languages.bn.params]
-      subtitle = "খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান"
-      owner = "খালিদ"
-      keywords = ""
-      copyright = "© ২০২৫ খালিদ"
-      menuMore = "আরো দেখুন"
-      readMore = "আরো পড়ুন"
-      readOtherPosts = "অন্য পোস্টগুলো দেখুন"
-      newerPosts = "নতুন পোস্ট"
-      olderPosts = "পুরনো পোস্ট"
-      missingContentMessage = "পেজটি পাওয়া যায়নি..."
-      missingBackButtonLabel = "হোম পেজে ফিরে যান"
-      minuteReadingTime = "min read"
-      words = "words"
-      tagPrepend = "বিষয়"
+[languages.bn]
+contentDir = 'content/bn'
+disabled = false
+languageCode = 'bn-BD'
+title = "খালিদের শেল"
+languageDirection = 'ltr'
+languageName = 'বাংলা'
+weight = 1
+[languages.bn.params]
+subtitle = "খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান"
+owner = "খালিদ"
+keywords = ""
+copyright = "© ২০২৫ খালিদ"
+menuMore = "আরো দেখুন"
+readMore = "আরো পড়ুন"
+readOtherPosts = "অন্য পোস্টগুলো দেখুন"
+newerPosts = "নতুন পোস্ট"
+olderPosts = "পুরনো পোস্ট"
+missingContentMessage = "পেজটি পাওয়া যায়নি..."
+missingBackButtonLabel = "হোম পেজে ফিরে যান"
+minuteReadingTime = "min read"
+words = "words"
+tagPrepend = "বিষয়"
 
-      [languages.bn.params.logo]
-        logoText = "khalid@blog:~$"
-        logoHomeLink = "/"
+[languages.bn.params.logo]
+logoText = "khalid@blog:~$"
+logoHomeLink = "/"
 
-        [languages.bn.menus]
-          # [[languages.bn.menus.main]]
-          #   identifier = "home"
-          #   name = "শুরু"
-          #   weight = 1
-          #   # url = ""        
-          [[languages.bn.menus.main]]
-            identifier = "posts"
-            name = "সকল পোস্ট"
-            weight = 1
-            # url = "posts"
-            pageRef = "/posts"
-          [[languages.bn.menus.main]]
-            identifier = "tags"
-            name = "বিষয়াবলি"
-            weight = 2
-            # url = "categories"
-            pageRef = "/tags"
-           # [[languages.bn.menus.main]]
-           #   identifier = "about"
-           #   name = "আমার পরিচয়"
-           #   # url = "about"
-           #   pageRef = "/about"
+[languages.bn.menus]
+# [[languages.bn.menus.main]]
+#   identifier = "home"
+#   name = "শুরু"
+#   weight = 1
+#   # url = ""        
+[[languages.bn.menus.main]]
+identifier = "posts"
+name = "সকল পোস্ট"
+weight = 1
+# url = "posts"
+pageRef = "/posts"
+[[languages.bn.menus.main]]
+identifier = "tags"
+name = "বিষয়াবলি"
+weight = 2
+# url = "categories"
+pageRef = "/tags"
+[[languages.bn.menus.main]]
+identifier = "services"
+name = "সার্ভিস"
+weight = 3
+# url = "about"
+pageRef = "/services"
+[[languages.bn.menus.main]]
+identifier = "about"
+name = "পরিচিতি"
+weight = 4
+# url = "about"
+pageRef = "/about"
+[[languages.bn.menus.main]]
+identifier = "privacy"
+name = "প্রাইভেসি নোট"
+weight = 5
+# url = "about"
+pageRef = "/privacy"
+#    [[languages.bn.menu.main]]
+#   identifier = "contact"
+#   name = "যোগাযোগ"
+#   url = "/contact"
 
-        #    [[languages.bn.menu.main]]
-        #   identifier = "contact"
-        #   name = "যোগাযোগ"
-        #   url = "/contact"
+#   [[languages.bn.menu.main]]
+#     identifier = "showcase"
+#     name = "Showcase"
+#     url = "/showcase"
 
-        #   [[languages.bn.menu.main]]
-        #     identifier = "showcase"
-        #     name = "Showcase"
-        #     url = "/showcase"
-        
-  [languages.en]
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = "Khalid's Shell"
-    weight = 2
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = "Khalid's Shell"
+weight = 2
 
-    [languages.en.params]
-      subtitle = "Tech Tutorials, Tips & Tricks, Troubleshooting from Khalid"
-      owner = ""
-      keywords = ""
-      copyright = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
-      minuteReadingTime = "min read"
-      words = "words"
-      tagPrepend = "Posts for"
+[languages.en.params]
+subtitle = "Tech Tutorials, Tips & Tricks, Troubleshooting from Khalid"
+owner = ""
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
+minuteReadingTime = "min read"
+words = "words"
+tagPrepend = "Posts for"
 
-      [languages.en.params.logo]
-        logoText = "khalid@blog:~$"
-        logoHomeLink = "/"
+[languages.en.params.logo]
+logoText = "khalid@blog:~$"
+logoHomeLink = "/"
 
-        # [languages.en.menu]
-        #   [[languages.en.menu.main]]
-        #           identifier = "about"
-        #           name = "About"
-        #           url = "/about"
-        #         [[languages.en.menu.main]]
-        #           identifier = "showcase"
-        #           name = "Showcase"
-        #           url = "/showcase"
+# [languages.en.menu]
+#   [[languages.en.menu.main]]
+#           identifier = "about"
+#           name = "About"
+#           url = "/about"
+#         [[languages.en.menu.main]]
+#           identifier = "showcase"
+#           name = "Showcase"
+#           url = "/showcase"
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+# dir name of your main content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 6
 
-  # show selector to switch language
-  showLanguageSelector = true
+# show selector to switch language
+showLanguageSelector = true
 
-  # set theme to full screen width
-  fullWidthTheme = true
+# set theme to full screen width
+fullWidthTheme = true
 
-  # center theme with default width
-  centerTheme = false
+# center theme with default width
+centerTheme = false
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  # autoCover = true
+# if your resource directory contains an image called `cover.(jpg|png|webp)`,
+# then the file will be used as a cover automatically.
+# With this option you don't have to put the `cover` param in a front-matter.
+# autoCover = true
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+# set post to show the last updated
+# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+showLastUpdated = false
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+# updatedDatePrefix = "Updated"
 
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
+# whether to show a page's estimated reading time
+# readingTime = false # default
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+# whether to show a table of contents
+# can be overridden in a page's front-matter
+# Toc = false # default
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+# set title for the table of contents
+# can be overridden in a page's front-matter
+# TocTitle = "Table of Contents" # default
 
-  # Set date/time format for posts
-  # This will impact the date/time displayed on
-  # index.html, the posts list page, and on posts themselves
-  # This value can also be configured per-post on front matter
-  # If you have any issues with the timezone rendering differently
-  # than you expected, please ensure your timezone is correctly set
-  # on your server.
-  # This value can be customized according to Hugo documentation:
-  # https://gohugo.io/functions/time/format/
-  # Default value (no changes needed):
-  # dateFormat = "2006-01-02"
-  # Example format, with date, time, and timezone abbreviation:
-  # dateFormat = "2006-01-02 3:04:06 PM MST"
+# Set date/time format for posts
+# This will impact the date/time displayed on
+# index.html, the posts list page, and on posts themselves
+# This value can also be configured per-post on front matter
+# If you have any issues with the timezone rendering differently
+# than you expected, please ensure your timezone is correctly set
+# on your server.
+# This value can be customized according to Hugo documentation:
+# https://gohugo.io/functions/time/format/
+# Default value (no changes needed):
+# dateFormat = "2006-01-02"
+# Example format, with date, time, and timezone abbreviation:
+# dateFormat = "2006-01-02 3:04:06 PM MST"
 
-  [params.contact]
-    email = 'khalidrafi.twzde@slmail.me'
+[params.contact]
+email = 'khalidrafi.twzde@slmail.me'
 
-    # [params.twitter]
-    #   # set Twitter handles for Twitter cards
-    #   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-    #   # do not include @
-    #   creator = ""
-    #   site = ""
+# [params.twitter]
+#   # set Twitter handles for Twitter cards
+#   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+#   # do not include @
+#   creator = ""
+#   site = ""
 
-    # [module]
-    # In case you would like to make changes to the theme and keep it locally in you repository,
-    # uncomment the line below (and correct the local path if necessary).
-    # --
-    # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
-    # [[module.imports]]
-    # path = 'github.com/panr/hugo-theme-terminal/v4'
+# [module]
+# In case you would like to make changes to the theme and keep it locally in you repository,
+# uncomment the line below (and correct the local path if necessary).
+# --
+# replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
+# [[module.imports]]
+# path = 'github.com/panr/hugo-theme-terminal/v4'

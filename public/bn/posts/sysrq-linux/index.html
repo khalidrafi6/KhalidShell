@@ -6,12 +6,14 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান" />
-<meta name="keywords" content="" />
+<meta name="description" content="লিনাক্সে SysRq Key এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে SysRq দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন SysRq ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।
+আপনার কার্নেল SysRq সহকারে কম্পাইল করা থাকলে, /proc/sys/kernel/sysrq দ্বারা SysRq এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। /proc/sys/kernel/sysrq ফাইলে নিচের মানগুলো থাকতে পারে:
+" />
+<meta name="keywords" content="লিনাক্স, SysRq, কম্পিউটার" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:1313/bn/" />
+<link rel="canonical" href="http://localhost:1313/bn/posts/sysrq-linux/" />
 
 
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
@@ -22,7 +24,7 @@
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/styles.min.78e44e37d45a6b3cb4e15796b144ff9598f21b5ddb575c3d394148f5134f43b4.css">
+<link rel="stylesheet" href="http://localhost:1313/styles.min.3405e3f13045870461a3b490b43e220d4ca697d270dc6169d37e1bc1092d2bf5.css">
 
 
 
@@ -38,25 +40,29 @@
 
 
 <meta property="og:locale" content="bn" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="খালিদের শেল">
-<meta property="og:description" content="খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান" />
-<meta property="og:url" content="http://localhost:1313/bn/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন">
+<meta property="og:description" content="লিনাক্সে SysRq Key এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে SysRq দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন SysRq ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।
+আপনার কার্নেল SysRq সহকারে কম্পাইল করা থাকলে, /proc/sys/kernel/sysrq দ্বারা SysRq এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। /proc/sys/kernel/sysrq ফাইলে নিচের মানগুলো থাকতে পারে:
+" />
+<meta property="og:url" content="http://localhost:1313/bn/posts/sysrq-linux/" />
 <meta property="og:site_name" content="খালিদের শেল" />
 
-  <meta property="og:image" content="http://localhost:1313/og-image.png">
+  
+  
+  <meta property="og:image" content="http://localhost:1313/">
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2025-03-01 00:05:03 &#43;0600 &#43;06" />
 
 
 
 
 
 
-  <link href="/bn/index.json" rel="alternate" type="application/json" title="খালিদের শেল" />
 
 
 </head>
@@ -77,7 +83,7 @@
     </div>
     
       <ul class="menu menu--mobile">
-  <li class="menu__trigger">মেন্যু&nbsp;▾</li>
+  <li class="menu__trigger">Menu&nbsp;▾</li>
   <li>
     <ul class="menu__dropdown">
       
@@ -89,7 +95,18 @@
           <li><a href="/bn/tags/">বিষয়াবলি</a></li>
         
       
-      <li><button class="dark-mode-toggle fas fa-moon"></button></li>
+        
+          <li><a href="/bn/services/">সার্ভিস</a></li>
+        
+      
+        
+          <li><a href="/bn/about/">পরিচিতি</a></li>
+        
+      
+        
+          <li><a href="/bn/privacy/">প্রাইভেসি নোট</a></li>
+        
+      
       
         <hr />
         
@@ -135,6 +152,18 @@
       
         
           <li><a href="/bn/tags/" >বিষয়াবলি</a></li>
+        
+      
+        
+          <li><a href="/bn/services/" >সার্ভিস</a></li>
+        
+      
+        
+          <li><a href="/bn/about/" >পরিচিতি</a></li>
+        
+      
+        
+          <li><a href="/bn/privacy/" >প্রাইভেসি নোট</a></li>
         
       
       
