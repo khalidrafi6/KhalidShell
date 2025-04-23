@@ -1,6 +1,6 @@
 +++
 title = 'কম্পিউটার ছাড়াই যেভাবে প্রোগ্রামিং করবেন'
-weight = 1
+# weight = 1
 date = '2025-03-01T00:05:03+06:00'
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
@@ -23,8 +23,8 @@ hideComments = false
 
 ওয়েবভিত্তিক ছাড়াও অ্যান্ড্রয়েডের জন্য অনেক কোড এডিটর অ্যাপ রয়েছে। তবে এক্ষেত্রে, আমার মতে, সবচেয়ে ভাল অপশনগুলো হচ্ছে:
 
-১. [Emacs](https://f-droid.org/packages/org.gnu.emacs/)  
-২. [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#android)
+- [Emacs](https://f-droid.org/packages/org.gnu.emacs/)  
+- [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#android)
 
 দুইটা এডিটরেরই কম্পিউটার ভার্সন আছে। অতএব, একই এডিটর সব জায়গায় ব্যবহার করতে পারবেন। Emacs তুলনামূলক সহজ। তবে, Neovim শিখতে একটু সময় লাগে। কিন্তু আপনি রপ্ত করতে পারলে এটা অনেক শক্তিশালী। Neovim চালাতে আপনার [Termux](https://termux.com/) প্রয়োজন হবে। দুইটি কোড এডিটরের ক্ষেত্রেই নির্দিষ্ট ওয়েবসাইটে প্রয়োজনীয় নির্দেশনা পাবেন। সাহায্য লাগলে আমাকে বলতে পারেন।
 

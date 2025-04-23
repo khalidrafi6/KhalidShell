@@ -1,7 +1,7 @@
 .menu--desktop {
   align-items: center;
-  justify-content: space-evenly;
-  /* column-gap: 7%; */
+  justify-content: center;
+  column-gap: 5%;
 }
 
 .menu--desktop li {
@@ -37,6 +37,10 @@
 
 #comments {
   margin-top: 10%;
+}
+
+.translations {
+  margin: 0 auto;
 }
 
 .footer {

@@ -37,5 +37,5 @@ function setTheme(mode) {
 }
 
 // the default theme is light
-let savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+let savedTheme = localStorage.getItem("dark-mode-storage") || "dark";
 setTheme(savedTheme);

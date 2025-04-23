@@ -7,7 +7,6 @@
           <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       {{ end }}
-        <li><button class="dark-mode-toggle moon">🌗</button></li>
       {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
         <hr />
         {{ range $.Site.Home.AllTranslations }}

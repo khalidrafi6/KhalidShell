@@ -5,7 +5,7 @@ date = "2025-03-01T00:05:03+06:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
-weight = 2
+# weight = 2
 tags = ["লিনাক্স", "সমস্যার সমাধান"]
 keywords = ["লিনাক্স", "SysRq", "কম্পিউটার"]
 description = ""
@@ -99,7 +99,7 @@ echo _reisub > /proc/sysrq-trigger
 
 `e`, `i` - এগুলো কাজে লাগে যখন কোন __runaway__ প্রসেস অন্য উপায়ে __kill__ করা যায় না।
 
-`R` -__ Replay logs__ কার্নেল লগের বার্তাগুলো দেখতে কাজে লাগে যখন সিস্টেম হ্যাং হয়ে যায়, কিংবা যখন আপনি __printk__ বাফারে __dmesg__ ব্যবহার করতে পারেন না।
+`R` - এটা কার্নেল লগের বার্তাগুলো দেখতে কাজে লাগে যখন সিস্টেম হ্যাং হয়ে যায়, কিংবা যখন আপনি __printk__ বাফারে __dmesg__ ব্যবহার করতে পারেন না।
 
 **SysRq Key** এর সম্পর্কে বিস্তারিত জানতে [এই লিংকটি](https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html) দেখুন।
 
