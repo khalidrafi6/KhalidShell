@@ -5,8 +5,8 @@ author = ""
 authorTwitter = "" 
 cover = ""
 tags = ["Tips & Tricks", "Programming"]
-keywords = []
-description = ""
+keywords = ["coding without computer", "learn programming on mobile", "android programming", "mobile code editor"]
+description = "Learn how to code without a computer using just your mobile device. Discover online code editors and Android apps for programming on the go."
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -14,11 +14,11 @@ hideComments = false
 
 Many people want to learn programming but can't because they don't have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:
 
-**1. Online Code Editors and Compilers:**
+## 1. Online Code Editors and Compilers:
 
 The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like _online code editor_ or _online compiler_ in your search engine (or ask an AI chatbot), and you’ll find many options, such as [CodePen](http://codepen.io/), which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.
 
-**2. Code Editor Apps:**
+## 2. Code Editor Apps:
 
 Apart from web-based options, there are many code editor apps available for Android. In my opinion, the best options are:
 
