@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 29 Mar 2025 15:17:22 +0600</lastBuildDate><atom:link href="http://localhost:1313/en/tags/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Install Desktop Extensions in Firefox for Android</title>
-      <link>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</link>
+      <link>http://localhost:1313/en/posts/desktop-extensions-firefox-android/</link>
       <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
       
-      <guid>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</guid>
+      <guid>http://localhost:1313/en/posts/desktop-extensions-firefox-android/</guid>
       <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;
 &lt;h3 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h3&gt;
 &lt;ol&gt;

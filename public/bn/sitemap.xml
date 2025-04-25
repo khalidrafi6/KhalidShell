@@ -18,17 +18,17 @@
     <loc>http://localhost:1313/bn/tags/%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6-%E0%A6%93-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2/</loc>
     <lastmod>2025-03-29T15:17:22+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bn/posts/firefox-android-desktop-extensions/</loc>
+    <loc>http://localhost:1313/bn/posts/desktop-extensions-firefox-android/</loc>
     <lastmod>2025-03-29T15:17:22+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/firefox-android-desktop-extensions/"
+                href="http://localhost:1313/en/posts/desktop-extensions-firefox-android/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/"
+                href="http://localhost:1313/bn/posts/desktop-extensions-firefox-android/"
                 />
   </url><url>
     <loc>http://localhost:1313/bn/tags/</loc>

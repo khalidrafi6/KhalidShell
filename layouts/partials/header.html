@@ -3,8 +3,10 @@
     <div class="header__logo">
       {{ partialCached "logo.html" . }}
     </div>
-    <div id="docsearch"></div>
-    <button class="dark-mode-toggle moon">🌗</button>
+    <div id="search-dark">
+      <div id="docsearch"></div>
+      <button class="dark-mode-toggle moon">🌗</button>
+    </div>
     {{ if len $.Site.Menus }}
       {{ partialCached "mobile-menu.html" . }}
     {{ end }}
