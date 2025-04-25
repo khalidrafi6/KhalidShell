@@ -4,7 +4,7 @@ date = '2025-03-01T00:05:03+06:00'
 author = ""
 authorTwitter = "" 
 cover = ""
-tags = ["Tips & Tricks", "Programming"]
+tags = ["Tips and Tricks", "Programming"]
 keywords = ["coding without computer", "learn programming on mobile", "android programming", "mobile code editor"]
 description = "Learn how to code without a computer using just your mobile device. Discover online code editors and Android apps for programming on the go."
 showFullContent = false
@@ -22,8 +22,8 @@ The easiest way to code on a mobile device is by using online code editors and c
 
 Apart from web-based options, there are many code editor apps available for Android. In my opinion, the best options are:
 
-1. [Emacs](https://f-droid.org/packages/org.gnu.emacs/)  
-2. [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#android)
+- [Emacs](https://f-droid.org/packages/org.gnu.emacs/)  
+- [Neovim](https://github.com/neovim/neovim/blob/master/INSTALL.md#android)
 
 Both are cross-platform, so you can use the same editor everywhere. Emacs is relatively easier to use. Neovim has a learning curve but it a is very powerful editor if you can master it. To run Neovim, you’ll need [Termux](https://termux.com/). For both editors, you can find detailed instructions on their respective websites. Feel free to ask me if you need help.
 

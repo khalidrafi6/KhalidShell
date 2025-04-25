@@ -17,6 +17,6 @@ Let’s open the shell and explore the world of technology together!
 **Are you facing issues with your mobile or computer?**  
 **Want to experience something new by installing Linux?**  
 **Want to upgrade Android version of your old mobile?**
-**Hurry up!** [Contact me](khalidrafi@duck.com)
+**Hurry up!** [Contact me](mailto:khalidrafi@duck.com)
 
 ___To learn more about my services: [Check out](https://blog.khalidrafi.me/en/services)___
