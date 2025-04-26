@@ -58,8 +58,19 @@
 /*   margin-top: 10%; */
 /* } */
 
-.translations {
-  margin: 0 auto;
+/* .translations { */
+/*   margin: 0 auto; */
+/* } */
+
+.title-under {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-translation a {
+  /* color: var(--background); */
+  /* background: var(--accent); */
+  /* padding: 5px 10px; */
 }
 
 .footer {
