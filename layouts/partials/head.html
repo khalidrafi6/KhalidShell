@@ -52,9 +52,17 @@
     {{ $pageCover = .RelPermalink }}
   {{ end }}
   <meta property="og:image" content="{{ $pageCover | absURL }}">
-{{ else }}
+  {{- else if $.Site.Params.AutoCover -}}
+  {{- if (not .Params.Cover) -}}
+  {{- if .Resources.GetMatch "cover.*" -}}
+  {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+
+  <meta property="og:image" content="{{ $cover }}">
+  {{- end -}}
+  {{- end -}}
+  {{ else }}
   <meta property="og:image" content="{{ "og-image.png" | absURL }}">
-{{ end }}
+  {{ end }}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 {{ range .Params.categories }}
@@ -73,3 +81,4 @@
 {{ with .OutputFormats.Get "json" }}
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
 {{ end }}
+
