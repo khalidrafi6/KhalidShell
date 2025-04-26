@@ -2,24 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn-BD"
-                href="http://localhost:1313/bn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/browsers/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <lastmod>2025-04-26T01:07:48+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/desktop-extensions-firefox-android/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <lastmod>2025-04-26T01:07:48+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -32,7 +19,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -45,7 +32,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -58,10 +45,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/tips-and-tricks/</loc>
-    <lastmod>2025-03-29T15:17:22+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/coding-without-computer/</loc>
-    <lastmod>2025-03-01T00:05:03+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -74,10 +61,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/linux/</loc>
-    <lastmod>2025-03-01T00:05:03+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/sysrq-linux/</loc>
-    <lastmod>2025-03-01T00:05:03+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -90,12 +77,26 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/programming/</loc>
-    <lastmod>2025-03-01T00:05:03+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/troubleshooting/</loc>
-    <lastmod>2025-03-01T00:05:03+06:00</lastmod>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-04-26T01:07:48+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
+    <lastmod>2025-04-24T04:14:59+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -120,6 +121,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/privacy/</loc>
+    <lastmod>2025-04-24T04:14:59+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -132,6 +134,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>
+    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"

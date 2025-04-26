@@ -8,56 +8,112 @@
     <language>bn-BD</language>
     <lastBuildDate>Sat, 01 Mar 2025 00:05:03 +0600</lastBuildDate><atom:link href="http://localhost:1313/bn/tags/%E0%A6%B2%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>যেভাবে SysRq Key ব্যবহার করে লিনাক্সে সিস্টেমের সমস্যা সামলাবেন</title>
+      <title>লিনাক্স হ্যাং হয়ে গেছে? SysRq কমান্ড দিয়ে যেভাবে সিস্টেম রিকভার ও সমস্যার সমাধান করবেন </title>
       <link>http://localhost:1313/bn/posts/sysrq-linux/</link>
       <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
       
       <guid>http://localhost:1313/bn/posts/sysrq-linux/</guid>
-      <description>&lt;p&gt;লিনাক্সে &lt;strong&gt;SysRq Key&lt;/strong&gt; এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন &lt;strong&gt;SysRq&lt;/strong&gt; ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।&lt;/p&gt;
-&lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সহকারে কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; দ্বারা &lt;strong&gt;SysRq&lt;/strong&gt; এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;</description>
-      <content>&lt;p&gt;লিনাক্সে &lt;strong&gt;SysRq Key&lt;/strong&gt; এর কিছু কমান্ড রয়েছে। এগুলো সিস্টেমে সমস্যা দেখা দিলে তা সামলাতে সাহায্য করে। কার্নেল সবসময় এই কমান্ডগুলোতে রেস্পন্স করে, কম্পিউটারে যে কাজই চলমান থাকুক, এমনকি সম্পূর্ণ হ্যাং হয়ে গেলেও। তবে কার্নেল পুরোপুরি আবদ্ধ হয়ে গেলে ভিন্ন কথা। সিস্টেমে ত্রুটি দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; দারুণ কাজে লাগে। যেমন ধরেন আপনার কম্পিউটার হ্যাং হয়ে গেছে এবং কোন ইনপুটেই কাজ হচ্ছে না, তখন &lt;strong&gt;SysRq&lt;/strong&gt; ব্যবহার করে কম্পিউটার বন্ধ/রিবুট করতে পারবেন।&lt;/p&gt;
-&lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সহকারে কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; দ্বারা &lt;strong&gt;SysRq&lt;/strong&gt; এর ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;
-&lt;p&gt;0 - &lt;strong&gt;SysRq&lt;/strong&gt; সম্পূর্ণরূপে বন্ধ করে দিবে&lt;/p&gt;
-&lt;p&gt;1 - &lt;strong&gt;SysRq&lt;/strong&gt; এর সকল ফাংশন চালু করবে&lt;/p&gt;
+      <description>&lt;p&gt;লিনাক্স হ্যাং হয়ে গেলে &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ডগুলো খুব কাজে লাগে। কম্পিউটার যে অবস্থাতেই থাকুক না কেন কার্নেল সবসময় এই কমান্ডগুলোতে সাড়া দেয়। তবে কার্নেল নিজেই সম্পূর্ণ লক হয়ে গেলে ভিন্ন কথা। সিস্টেমে সমস্যা দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; ফিচার অত্যন্ত উপকারী। উদাহরণস্বরূপ, আপনার লিনাক্স হ্যাং হয়ে গেলে এবং কোন ইনপুটেই সাড়া না দিলে, &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ড  ব্যবহার করে কম্পিউটার বন্ধ বা রিবুট করতে পারবেন।&lt;/p&gt;
+&lt;h2 id=&#34;sysrq-কভব-চল-করবন&#34;&gt;SysRq কিভাবে চালু করবেন&lt;/h2&gt;
+&lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সাপোর্ট সহ কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; এর মাধ্যমে এটির ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;</description>
+      <content>&lt;p&gt;লিনাক্স হ্যাং হয়ে গেলে &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ডগুলো খুব কাজে লাগে। কম্পিউটার যে অবস্থাতেই থাকুক না কেন কার্নেল সবসময় এই কমান্ডগুলোতে সাড়া দেয়। তবে কার্নেল নিজেই সম্পূর্ণ লক হয়ে গেলে ভিন্ন কথা। সিস্টেমে সমস্যা দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; ফিচার অত্যন্ত উপকারী। উদাহরণস্বরূপ, আপনার লিনাক্স হ্যাং হয়ে গেলে এবং কোন ইনপুটেই সাড়া না দিলে, &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ড  ব্যবহার করে কম্পিউটার বন্ধ বা রিবুট করতে পারবেন।&lt;/p&gt;
+&lt;h2 id=&#34;sysrq-কভব-চল-করবন&#34;&gt;SysRq কিভাবে চালু করবেন&lt;/h2&gt;
+&lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সাপোর্ট সহ কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; এর মাধ্যমে এটির ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;
+&lt;p&gt;0 - &lt;strong&gt;SysRq&lt;/strong&gt; সম্পূর্ণরূপে বন্ধ করে দেয়&lt;/p&gt;
+&lt;p&gt;1 - &lt;strong&gt;SysRq&lt;/strong&gt; এর সকল ফাংশন চালু করে&lt;/p&gt;
 &lt;p&gt;&amp;gt; 1 - অনুমোদিত &lt;strong&gt;SysRq&lt;/strong&gt; ফাংশনগুলোর &lt;strong&gt;bitmask&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;আপনি নিচের কমান্ডের সাহায্যে ফাইলটিতে মান সেট করতে পারবেন:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;number&amp;#34;&lt;/span&gt; &amp;gt; /proc/sys/kernel/sysrq
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;উল্লেখ্য, এই ফাইল শুধুমাত্র কীবোর্ড দিয়ে SysRq ব্যবহারকে নিয়ন্ত্রণ করে। &lt;code&gt;/proc/sysrq-trigger&lt;/code&gt; ব্যবহার করে আপনি যেকোন কমান্ড ব্যবহার করতে পারবেন, উক্ত ফাইলে সেটা চালু না থাকলেও।&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SysRq ব্যবহার করতে:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;• x86 সিস্টেমে:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;আপনি নিচের কমান্ড দিয়ে ফাইলটিতে মান সেট করতে পারেন:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo NUMBER &amp;gt; /proc/sys/kernel/sysrq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;মনে রাখবেন, এই ফাইল শুধুমাত্র কীবোর্ড দিয়ে SysRq ব্যবহার কন্ট্রোল করে। &lt;code&gt;/proc/sysrq-trigger&lt;/code&gt; ব্যবহার করে আপনি যেকোন কমান্ড ব্যবহার করতে পারবেন, এমনকি যদি তা উক্ত ফাইলে চালু না থাকে।&lt;/p&gt;
+&lt;h2 id=&#34;sysrq-কভব-বযবহর-করবন&#34;&gt;SysRq কিভাবে ব্যবহার করবেন&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x86 সিস্টেমে&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;ALT&lt;/code&gt; + &lt;code&gt;SysRq&lt;/code&gt; +&lt;code&gt;&amp;lt;command key&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;strong&gt;বি. দ্র.:&lt;/strong&gt; অনেক কীবোর্ডে SysRq থাকে না। SysRq এর আরেক নাম হচ্ছে Print Screen. উক্ত কী-তে সাধারণত Print Screen উপরে আর SysRq নিচে লেখা থাকে।&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;• যেকোন সিস্টেমে:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;/proc/sysrq-trigger&lt;/code&gt; ফাইলে একটি ক্যারেক্টার লিখুন:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;বি. দ্র.:&lt;/strong&gt; অনেক কীবোর্ডে আলাদা SysRq কী নেই। SysRq সাধারণত Print Screen কী-এর সাথে শেয়ার করা থাকে, যেখানে &amp;ldquo;Print Screen&amp;rdquo; উপরে এবং &amp;ldquo;SysRq&amp;rdquo; নিচে লেখা থাকে।&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;যেকোন সিস্টেমে&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;/proc/sysrq-trigger&lt;/code&gt; ফাইলে একটি &lt;code&gt;&amp;lt;command key&amp;gt;&lt;/code&gt; লিখুন। উদাহরণ:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo b &amp;gt; /proc/sysrq-trigger
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;তবে যদি আপনি একাধিক কমান্ড দিতে চান, আগে _ লিখে নিন:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;আপনি যদি একাধিক কমান্ড একসাথে দিতে চান, তাহলে আগে _  ব্যবহার করুন:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo _reisub &amp;gt; /proc/sysrq-trigger
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;command key&amp;gt;&lt;/code&gt; এর তালিকা:&lt;/strong&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;sysrq-এর-command-key-গলর-তলক&#34;&gt;SysRq এর &lt;code&gt;&amp;lt;command key&amp;gt;&lt;/code&gt; গুলোর তালিকা&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;b&lt;/code&gt; - ডিস্ক &lt;strong&gt;sync&lt;/strong&gt; বা &lt;strong&gt;mount&lt;/strong&gt; না করেই সিস্টেমকে তৎক্ষণাৎ রিবুট করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;c&lt;/code&gt; - সিস্টেমকে ক্র্যাশ করিয়ে ক্র্যাশ ডাম্প সংগ্রহ করবে (যদি সেট-আপ করা থাকে)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;e&lt;/code&gt; - &lt;code&gt;init&lt;/code&gt; ব্যতীত সকল প্রসেসকে &lt;code&gt;SIGTERM&lt;/code&gt; পাঠাবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;f&lt;/code&gt; - &lt;strong&gt;OOM killer&lt;/strong&gt; এর মাধ্যমে অতিরিক্ত মেমোরি ব্যবহারকারী প্রসেসকে &lt;strong&gt;kill&lt;/strong&gt; করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;h&lt;/code&gt; - &lt;code&gt;help&lt;/code&gt; দেখাবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;i&lt;/code&gt; - &lt;code&gt;init&lt;/code&gt; ব্যতীত সকল প্রসেসকে &lt;code&gt;SIGKILL&lt;/code&gt; পাঠাবে&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;k&lt;/code&gt; - &lt;strong&gt;Secure Access Key (SAK)&lt;/strong&gt; বর্তমান ভার্চুয়াল কনসোলের সকল প্রোগ্রামকে kill করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;k&lt;/code&gt; - &lt;strong&gt;Secure Access Key (SAK)&lt;/strong&gt; বর্তমান ভার্চুয়াল কনসোলের সকল প্রোগ্রামকে &lt;strong&gt;kill&lt;/strong&gt; করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;o&lt;/code&gt; - কম্পিউটার বন্ধ করে দিবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;r&lt;/code&gt; - কীবোর্ডের &lt;strong&gt;raw mode&lt;/strong&gt; বন্ধ করে &lt;code&gt;XLATE&lt;/code&gt; সেট করে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;s&lt;/code&gt; - মাউন্ট করে রাখা সকল ফাইলসিস্টেম &lt;strong&gt;sync&lt;/strong&gt; করার চেষ্টা করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;t&lt;/code&gt; - সিস্টেমে চলমান কাজগুলোর তালিকা ও তাদের তথ্য কনসোলে ডাম্প করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;u&lt;/code&gt; - মাউন্ট করে রাখা সকল ফাইলসিস্টেম পুনরায় &lt;strong&gt;read-only&lt;/strong&gt; হিসেবে মাউন্ট করার চেষ্টা করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;w&lt;/code&gt; - সিস্টেমের যে কাজগুলো uninterruptible (blocked) অবস্থায় আছে, সেগুলোকে ডাম্প করবে&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;0-9&lt;/code&gt; - কনসোলের লগের মাত্রা নির্ধারণ করে। এভাবে কার্নেলের কোন বার্তাগুলো কনসোলে দেখাবে তা নিয়ন্ত্রণ করে।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;R&lt;/code&gt; - কার্নেল লগের বার্তাগুলো কনসোলে রিপ্লে করবে&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;যে যে কাজে লাগে:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;য-য-কজ-লগ&#34;&gt;যে যে কাজে লাগে&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;r&lt;/code&gt; - &lt;strong&gt;X server&lt;/strong&gt; বা কোন &lt;strong&gt;svgalib&lt;/strong&gt; প্রোগ্রাম ক্র্যাশ করলে কাজে লাগে&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;k&lt;/code&gt; - &lt;strong&gt;Secure Access Key (SAK)&lt;/strong&gt; কাজে লাগে যখন আপনি নিশ্চিত করতে চান যে, কনসোলে কোন &lt;strong&gt;Trojan&lt;/strong&gt; চলছে না। কারণ, আপনি লগ-ইন করার সময় &lt;strong&gt;Trojan&lt;/strong&gt; আপনার পাসওয়ার্ড চুরি করতে পারে। এই কমান্ড কনসোলটির সকল প্রোগ্রাম &lt;strong&gt;kill&lt;/strong&gt; করে দিবে। এভাবে আপনি নিশ্চিত করতে পারবেন কনসোলের লগ-ইন অংশটি আসলেই &lt;code&gt;init&lt;/code&gt; থেকে এসেছে, কোন &lt;strong&gt;Trojan&lt;/strong&gt; থেকে নয়। পাশাপাশি, অনেকে যখন কোন প্রোগ্রাম কনসোল পাল্টাতে দেয় না সেটাকে বন্ধ করতে এটা ব্যবহার করে (যেমন &lt;strong&gt;X&lt;/strong&gt; বা &lt;strong&gt;svgalib&lt;/strong&gt; প্রোগ্রাম)।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;k&lt;/code&gt; - &lt;strong&gt;Secure Access Key (SAK)&lt;/strong&gt; কাজে লাগে যখন আপনি নিশ্চিত করতে চান যে, কনসোলে কোন &lt;strong&gt;Trojan&lt;/strong&gt; চলছে না। কারণ আপনি লগ-ইন করার সময় &lt;strong&gt;Trojan&lt;/strong&gt; আপনার পাসওয়ার্ড চুরি করতে পারে। এই কমান্ড কনসোলটির সকল প্রোগ্রাম &lt;strong&gt;kill&lt;/strong&gt; করে দিবে। এভাবে আপনি নিশ্চিত করতে পারবেন কনসোলের লগ-ইন অংশটি আসলেই &lt;code&gt;init&lt;/code&gt; থেকে এসেছে, কোন &lt;strong&gt;Trojan&lt;/strong&gt; থেকে নয়। পাশাপাশি, অনেকে যখন কোন প্রোগ্রাম কনসোল পাল্টাতে দেয় না সেটাকে বন্ধ করতে এটা ব্যবহার করে (যেমন &lt;strong&gt;X&lt;/strong&gt; বা &lt;strong&gt;svgalib&lt;/strong&gt; প্রোগ্রাম)।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;b&lt;/code&gt;, &lt;code&gt;o&lt;/code&gt; - এগুলো ব্যবহার করা যায় যখন আপনি কম্পিউটার বন্ধ করতে পারছেন না।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;c&lt;/code&gt; - এইটা ব্যবহার করে সিস্টেমকে কৃত্রিমভাবে ক্র্যাশ করিয়ে ক্র্যাশ ডাম্প সংগ্রহ করা যায় (যদি ডাম্প ব্যবস্থাপনা সেট-আপ করা থাকে)।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;s&lt;/code&gt; - &lt;strong&gt;sync&lt;/strong&gt; নিশ্চিত করে যে, আপনার ডাটা ডিস্কে লিখা সম্পন্ন হয়েছে। এটা কাজে লাগে &lt;strong&gt;removable medium&lt;/strong&gt; খোলার পূর্বে বা &lt;strong&gt;rescue shell&lt;/strong&gt; ব্যবহারের পর (যদি সেটাতে সিস্টেম বন্ধ করার অপশন না থাকে)। তবে মনে রাখবেন যে, স্ক্রিনে &lt;strong&gt;&amp;ldquo;OK&amp;rdquo;&lt;/strong&gt; আর &lt;strong&gt;&amp;ldquo;Done&amp;rdquo;&lt;/strong&gt; আসার আগ পর্যন্ত &lt;strong&gt;sync&lt;/strong&gt; সম্পন্ন হয়নি।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;লগ লেভেল &lt;code&gt;0-9&lt;/code&gt; কাজে লাগে যখন কার্নেলের অপ্রয়োজনীয় বার্তা কনসোল ভরিয়ে ফেলে। 0 দিয়ে সবচেয়ে জরুরি কার্নেল বার্তাগুলো (&lt;code&gt;PANIC&lt;/code&gt; আর &lt;code&gt;OOPS&lt;/code&gt;) বাদে বাকি সব বন্ধ করে দেয়া যায়।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;e&lt;/code&gt;, &lt;code&gt;i&lt;/code&gt; - এগুলো কাজে লাগে যখন কোন &lt;strong&gt;runaway&lt;/strong&gt; প্রসেস অন্য উপায়ে &lt;strong&gt;kill&lt;/strong&gt; করা যায় না।&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;code&gt;R&lt;/code&gt; - এটা কার্নেল লগের বার্তাগুলো দেখতে কাজে লাগে যখন সিস্টেম হ্যাং হয়ে যায়, কিংবা যখন আপনি &lt;strong&gt;printk&lt;/strong&gt; বাফারে &lt;strong&gt;dmesg&lt;/strong&gt; ব্যবহার করতে পারেন না।&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SysRq Key&lt;/strong&gt; এর সম্পর্কে বিস্তারিত জানতে &lt;a href=&#34;https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html&#34;&gt;এই লিংকটি&lt;/a&gt; দেখুন।&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;SysRq Key&lt;/strong&gt; সম্পর্কে বিস্তারিত জানতে &lt;a href=&#34;https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html&#34;&gt;এই লিংক&lt;/a&gt; ভিজিট করুন।&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;তথ্যসূত্র:&lt;/strong&gt; &lt;a href=&#34;https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html&#34;&gt;The Linux Kernel Documentation&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
