@@ -8,19 +8,23 @@
   margin-bottom: 0;
 }
 
+.header__logo {
+  width: min-content;
+}
+
 #logoImage {
   border: none;
   margin: 0;
   padding: 0;
-  width: 150px;
+  /* width: 100px; */
 }
 
 #search-dark {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   margin: 0 auto;
   align-items: center;
+  column-gap: 5%;
 }
 
 #docsearch {

@@ -1,8 +1,6 @@
 baseURL = 'https://blog.khalidrafi.me/'
 languageCode = 'bn-BD'
 title = "খালিদের শেল"
-logoText = "khalid@blog:~$"
-logoHomeLink = "/"
 
 # Terminal theme config paste
 
@@ -46,7 +44,7 @@ words = "words"
 tagPrepend = "বিষয়"
 
 [languages.bn.params.logo]
-logoText = "khalid@blog:~$"
+logoText = "খালিদ:~$"
 logoHomeLink = "/"
 
 [languages.bn.menus]
@@ -121,7 +119,7 @@ words = "words"
 tagPrepend = "Posts for"
 
 [languages.en.params.logo]
-logoText = "khalid@blog:~$"
+logoText = "khalid:~$"
 logoHomeLink = "/en/"
 
 [languages.en.menus]
