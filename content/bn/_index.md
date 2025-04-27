@@ -11,9 +11,11 @@ framed = true
 __আপনার মোবাইল বা কম্পিউটারে কোন সমস্যায় ভুগছেন?__  
 __লিনাক্স ইন্সটল করে নতুনত্বের স্বাদ পেতে চান?__  
 __কাস্টম রম ইন্সটল করে আপনার পুরাতন ফোনের অ্যান্ড্রয়েড ভার্সন বাড়াতে চান?__  
-__চিন্তা নেই! [যোগাযোগ করুন](mailto:khalidrafi@duck.com)__
+__কিংবা অন্য যেকোন প্রযুক্তি [সহায়তা](https://blog.khalidrafi.me/bn/services/) প্রয়োজন?__  
+__চিন্তা নেই! যোগাযোগ করুন:__
 
-___আমার সার্ভিস সম্পর্কে বিস্তারিত জানতে [দেখুন](https://blog.khalidrafi.me/bn/services/)___
-
-
-
+<div class="social-icon">
+    <a href="mailto:khalidrafi.twzde@slmail.me" class="nf-cod-mail"></a>
+    <a href="https://t.me/khalidershell" class="nf-fae-telegram"></a>
+    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="nf-fa-facebook"></a>
+</div>
