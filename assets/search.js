@@ -1664,14 +1664,6 @@ var An = class {
     },
     En = "0.1.0";
 
-function getCurrentLanguageFromUrl() {
-    const path = window.location.pathname;
-    const parts = path.split('/');
-    // The second part of the path should be the language code
-    const lang = parts[1];
-    return lang;
-}
-
 function kn({
     clientAgents: e = []
 }, t) {
@@ -1680,8 +1672,7 @@ function kn({
     }, t);
 
     // Get the current language from the URL
-    const lang = getCurrentLanguageFromUrl();
-    
+    const lang = document.documentElement.getAttribute('lang');    
     // Construct the correct path for the index.json file
     return n.load(`/${lang}/index.json`).then(() => {
         console.log("Index loaded and indexed successfully.")
