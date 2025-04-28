@@ -17,6 +17,13 @@ Let’s open the shell and explore the world of technology together!
 **Are you facing issues with your mobile or computer?**  
 **Want to experience something new by installing Linux?**  
 **Want to upgrade Android version of your old mobile?**
-**Hurry up!** [Contact me](mailto:khalidrafi@duck.com)
+**Or do you need some other IT [services](https://blog.khalidrafi.me/en/services)?
+**Hurry up!** Contact me:
 
-___To learn more about my services: [Check out](https://blog.khalidrafi.me/en/services)___
+<div class="social-icon">
+    <a href="mailto:khalidrafi.twzde@slmail.me" class="nf nf-cod-mail"></a>
+    <a href="https://t.me/khalidershell" class="nf nf-fae-telegram"></a>
+    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="nf nf-fa-facebook"></a>
+</div>
+
+

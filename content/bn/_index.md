@@ -15,7 +15,7 @@ __কিংবা অন্য যেকোন প্রযুক্তি [স�
 __চিন্তা নেই! যোগাযোগ করুন:__
 
 <div class="social-icon">
-    <a href="mailto:khalidrafi.twzde@slmail.me" class="nf-cod-mail"></a>
-    <a href="https://t.me/khalidershell" class="nf-fae-telegram"></a>
-    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="nf-fa-facebook"></a>
+    <a href="mailto:khalidrafi.twzde@slmail.me" class="nf nf-cod-mail"></a>
+    <a href="https://t.me/khalidershell" class="nf nf-fae-telegram"></a>
+    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="nf nf-fa-facebook"></a>
 </div>
