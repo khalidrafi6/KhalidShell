@@ -1,0 +1,37 @@
+<meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ $.Site.Title }}" />
+
+{{- $cover := false -}}
+{{- $autoCover := default $.Site.Params.autoCover false }}
+
+{{- if index .Params "cover" -}}
+  {{- if .Resources.GetMatch .Params.Cover }}
+    {{- $cover = (.Resources.GetMatch .Params.Cover).RelPermalink -}}
+  {{- else -}}
+    {{- $cover = absURL .Params.Cover -}}
+  {{- end -}}
+{{- else if $.Site.Params.AutoCover -}}
+  {{- if (not .Params.Cover) -}}
+    {{- if .Resources.GetMatch "cover.*" -}}
+      {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+<meta property="og:image" content="{{ $cover }}">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+  <meta property="og:image" content="{{ "og-image.png" | absURL }}">
+{{- end -}}
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+{{ range .Params.categories }}
+  <meta property="article:section" content="{{ . }}" />
+{{ end }}
+{{ if isset .Params "date" }}
+  <meta property="article:published_time" content="{{ time .Date }}" />
+{{ end }}
