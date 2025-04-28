@@ -10,7 +10,8 @@
   {{ if .IsHome }}
   <div itemscope itemtype="https://schema.org/WebSite">
     <link itemprop="url" href="https://blog.khalidrafi.me" />
-    <meta itemprop="name" content="Khalid's Shell"/>
+    <meta itemprop="name" content="খালিদের শেল"/>
+    <meta itemprop="alternateName" content="Khalid's Shell" />
   </div>
   {{ end }}
 {{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default false) "container center" "container") }}
