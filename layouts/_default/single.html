@@ -24,7 +24,7 @@
   <div class="post-translation">
     {{ with .Translations }}
         {{ range . }}
-            <button><a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}">󰗊 | {{ .Language.LanguageName }}</a></button>
+            <button><a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"><i class="nf nf-md-translate"></i> | {{ .Language.LanguageName }}</a></button>
         {{ end }}
     {{ end }} 
   </div>
