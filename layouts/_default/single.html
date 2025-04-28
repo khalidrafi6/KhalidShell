@@ -24,7 +24,9 @@
   <div class="post-translation">
     {{ with .Translations }}
         {{ range . }}
+        {{ if or (eq .CurrentSection.Title "Posts") (eq .CurrentSection.Title "সকল পোস্ট") }}
             <button><a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"><i class="nf nf-md-translate"></i> | {{ .Language.LanguageName }}</a></button>
+        {{ end }}
         {{ end }}
     {{ end }} 
   </div>
