@@ -36,7 +36,7 @@
   {{ if (isset $.Site.Params.Twitter "site") }}
     <meta name="twitter:site" content="{{ $.Site.Params.Twitter.site }}" />
   {{ end }}
-    <meta name="twitter:creator" content="{{ if .IsHome }}{{ $.Site.Params.Twitter.creator }}{{ else if isset .Params "authortwitter" }}{{ .Params.authorTwitter }}{{ else }}{{ .Params.Author }}{{ end }}" />
+    <meta name="twitter:creator" content="{{ $.Site.Params.Twitter.creator }}" />
 {{ end }}
 
 <!-- OG data -->
