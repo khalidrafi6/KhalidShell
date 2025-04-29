@@ -1,7 +1,5 @@
 +++
 author = "খালিদ"
-url = "/"
-aliases = ["/bn"]
 framed = true
 +++
 # খালিদের শেলে আপনাকে স্বাগতম
