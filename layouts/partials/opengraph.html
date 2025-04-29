@@ -19,6 +19,7 @@
     {{- if .Resources.GetMatch "cover.*" -}}
       {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
 <meta property="og:image" content="{{ $cover }}">
+<meta property="twitter:image" content="{{ $cover }}">
     {{- end -}}
   {{- end -}}
 {{- end -}}
