@@ -286,7 +286,7 @@
 <p>1 - Enables all <strong>SysRq</strong> functions</p>
 <p>&gt; 1 - <strong>bitmask</strong> of allowed <strong>SysRq</strong> functions</p>
 <p>You can set values in this file using the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo NUMBER &gt; /proc/sys/kernel/sysrq
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> NUMBER &gt; /proc/sys/kernel/sysrq
 </span></span></code></pre></div><p>Note that this file only controls keyboard-initiated SysRq usage. You can use any command via <code>/proc/sysrq-trigger</code>, even if it&rsquo;s not enabled in the aforementioned file.</p>
 <h2 id="how-to-use-sysrq">How to Use SysRq<a href="#how-to-use-sysrq" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
@@ -298,9 +298,9 @@
 <li><strong>On any system</strong></li>
 </ul>
 <p>Write a <code>&lt;command key&gt;</code> to the <code>/proc/sysrq-trigger</code> file. For example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo b &gt; /proc/sysrq-trigger
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> b &gt; /proc/sysrq-trigger
 </span></span></code></pre></div><p>If you want to execute multiple commands, prefix them with _:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo _reisub &gt; /proc/sysrq-trigger
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> _reisub &gt; /proc/sysrq-trigger
 </span></span></code></pre></div><h2 id="list-of-sysrq-command-key-functions">List of SysRq <code>&lt;command key&gt;</code> functions<a href="#list-of-sysrq-command-key-functions" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>

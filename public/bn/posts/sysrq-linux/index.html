@@ -32,10 +32,11 @@
 <meta name="twitter:card" content="summary_large_image" />
 
   
-    <meta name="twitter:site" content="@khalidershell" />
+<meta name="twitter:site" content="@khalidershell" />
   
-    <meta name="twitter:creator" content="@KhalidRafi19" />
+<meta name="twitter:creator" content="@KhalidRafi19" />
 
+<meta property="twitter:title" content="লিনাক্স হ্যাং হয়ে গেছে? SysRq কমান্ড দিয়ে যেভাবে সিস্টেমের সমস্যাগুলো সুন্দরভাবে সামলাবেন">
 
 
 <meta property="og:locale" content="bn" />
@@ -247,7 +248,7 @@
     
     
     
-    ২৭-০৪-২০২৫
+    ৩০-০৪-২০২৫
     ]</time></div>
 
   <div class="post-translation">
@@ -286,7 +287,7 @@
 <p>1 - <strong>SysRq</strong> এর সকল ফাংশন চালু করে</p>
 <p>&gt; 1 - অনুমোদিত <strong>SysRq</strong> ফাংশনগুলোর <strong>bitmask</strong></p>
 <p>আপনি নিচের কমান্ড দিয়ে ফাইলটিতে মান সেট করতে পারেন:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo NUMBER &gt; /proc/sys/kernel/sysrq
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> NUMBER &gt; /proc/sys/kernel/sysrq
 </span></span></code></pre></div><p>মনে রাখবেন, এই ফাইল শুধুমাত্র কীবোর্ড দিয়ে SysRq ব্যবহার কন্ট্রোল করে। <code>/proc/sysrq-trigger</code> ব্যবহার করে আপনি যেকোন কমান্ড ব্যবহার করতে পারবেন, এমনকি যদি তা উক্ত ফাইলে চালু না থাকে।</p>
 <h2 id="sysrq-কভব-বযবহর-করবন">SysRq কিভাবে ব্যবহার করবেন<a href="#sysrq-কভব-বযবহর-করবন" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
@@ -298,9 +299,9 @@
 <li><strong>যেকোন সিস্টেমে</strong></li>
 </ul>
 <p><code>/proc/sysrq-trigger</code> ফাইলে একটি <code>&lt;command key&gt;</code> লিখুন। উদাহরণ:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo b &gt; /proc/sysrq-trigger
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> b &gt; /proc/sysrq-trigger
 </span></span></code></pre></div><p>আপনি যদি একাধিক কমান্ড একসাথে দিতে চান, তাহলে আগে _  ব্যবহার করুন:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo _reisub &gt; /proc/sysrq-trigger
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> _reisub &gt; /proc/sysrq-trigger
 </span></span></code></pre></div><h2 id="sysrq-এর-command-key-গলর-তলক">SysRq এর <code>&lt;command key&gt;</code> গুলোর তালিকা<a href="#sysrq-এর-command-key-গলর-তলক" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
 <li>

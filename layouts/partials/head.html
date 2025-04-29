@@ -30,10 +30,11 @@
 <meta name="twitter:card" content="summary_large_image" />
 {{ if (isset $.Site.Params "twitter") }}
   {{ if (isset $.Site.Params.Twitter "site") }}
-    <meta name="twitter:site" content="@{{ $.Site.Params.Twitter.site }}" />
+<meta name="twitter:site" content="@{{ $.Site.Params.Twitter.site }}" />
   {{ end }}
-    <meta name="twitter:creator" content="@{{ $.Site.Params.Twitter.creator }}" />
+<meta name="twitter:creator" content="@{{ $.Site.Params.Twitter.creator }}" />
 {{ end }}
+<meta property="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 
 <!-- OG data -->
 {{ partial "opengraph.html" . }}

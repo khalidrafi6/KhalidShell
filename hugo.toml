@@ -13,6 +13,10 @@ pagination.pagerSize = 5
 defaultContentLanguage = 'bn'
 defaultContentLanguageInSubdir = true
 
+# Required for Chroma and the custom syntax highlighting.
+[markup.highlight]
+  noClasses = false
+
 [outputs]
 home = ['html', 'json']
 
