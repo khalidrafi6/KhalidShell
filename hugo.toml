@@ -11,6 +11,7 @@ theme = "terminal"
 pagination.pagerSize = 5
 
 defaultContentLanguage = 'bn'
+defaultContentLanguageInSubdir = true
 
 [outputs]
 home = ['html', 'json']

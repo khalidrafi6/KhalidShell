@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6-%E0%A6%93-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6-%E0%A6%93-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2/</loc>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/desktop-extensions-firefox-android/</loc>
-    <lastmod>2025-04-27T04:53:20+06:00</lastmod>
+    <loc>http://localhost:1313/bn/posts/firefox-android-desktop-extensions/</loc>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/desktop-extensions-firefox-android/"
+                href="http://localhost:1313/en/posts/firefox-android-desktop-extensions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/desktop-extensions-firefox-android/"
+                href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0/</loc>
-    <lastmod>2025-04-27T04:53:20+06:00</lastmod>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0/</loc>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/coding-without-computer/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <loc>http://localhost:1313/bn/posts/coding-without-computer/</loc>
+    <lastmod>2025-04-29T01:39:02+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -31,16 +31,16 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/coding-without-computer/"
+                href="http://localhost:1313/bn/posts/coding-without-computer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82/</loc>
+    <lastmod>2025-04-29T01:39:02+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E0%A6%B2%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8/</loc>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%B2%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8/</loc>
     <lastmod>2025-04-27T16:33:37+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sysrq-linux/</loc>
+    <loc>http://localhost:1313/bn/posts/sysrq-linux/</loc>
     <lastmod>2025-04-27T16:33:37+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -50,13 +50,13 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/sysrq-linux/"
+                href="http://localhost:1313/bn/posts/sysrq-linux/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%A8/</loc>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%A8/</loc>
     <lastmod>2025-04-27T16:33:37+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/bn/</loc>
     <lastmod>2025-04-28T20:45:30+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -66,10 +66,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/bn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/bn/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -78,10 +78,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/bn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/bn/about/</loc>
     <lastmod>2025-04-23T16:10:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -91,10 +91,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/bn/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>http://localhost:1313/bn/privacy/</loc>
     <lastmod>2025-04-23T13:07:41+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -104,10 +104,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/privacy/"
+                href="http://localhost:1313/bn/privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/bn/tags/</loc>
     <lastmod>2025-03-28T23:22:58+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -117,10 +117,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/bn/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/bn/posts/</loc>
     <lastmod>2025-03-28T23:22:58+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -130,10 +130,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/bn/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
+    <loc>http://localhost:1313/bn/services/</loc>
     <lastmod>2025-04-28T01:32:31+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -143,7 +143,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/services/"
+                href="http://localhost:1313/bn/services/"
                 />
   </url>
 </urlset>

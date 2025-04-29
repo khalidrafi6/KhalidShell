@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/tags/browsers/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/desktop-extensions-firefox-android/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <loc>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</loc>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/desktop-extensions-firefox-android/"
+                href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/desktop-extensions-firefox-android/"
+                href="http://localhost:1313/en/posts/firefox-android-desktop-extensions/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/bn/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -32,11 +32,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/bn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -45,14 +45,14 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/tips-and-tricks/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-04-29T01:54:47+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/coding-without-computer/</loc>
     <lastmod>2025-04-27T16:25:18+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/coding-without-computer/"
+                href="http://localhost:1313/bn/posts/coding-without-computer/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -68,7 +68,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/posts/sysrq-linux/"
+                href="http://localhost:1313/bn/posts/sysrq-linux/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -87,7 +87,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/bn/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -100,7 +100,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/bn/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -112,7 +112,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/bn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -125,7 +125,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/privacy/"
+                href="http://localhost:1313/bn/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -138,7 +138,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/services/"
+                href="http://localhost:1313/bn/services/"
                 />
     <xhtml:link
                 rel="alternate"
