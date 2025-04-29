@@ -17,13 +17,15 @@
     </div>
     -->
   </div>
-
-    {{ $js := resources.Get "search.js" | minify | fingerprint }}
-    <script type="module" crossorigin src="{{ $js.Permalink }}"></script>
 </footer>
 
 {{ $menu := resources.Get "js/menu.js" | js.Build }}
-{{ $prism := resources.Get "js/prism.js" | js.Build }}
-{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
+{{ $cp := resources.Get "js/code.js" | js.Build }}
+
+{{ $bundle := slice $menu $cp | resources.Concat "bundle.js" | resources.Minify }}
+
 <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+
+{{ $js := resources.Get "search.js" | minify | fingerprint }}
+<script type="module" crossorigin src="{{ $js.Permalink }}"></script>
 <script src="{{ "dark.js" | absURL }}" type="text/javascript"></script>

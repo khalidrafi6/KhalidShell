@@ -4,105 +4,23 @@
     <title>Tips and Tricks on Khalid&#39;s Shell</title>
     <link>http://localhost:1313/en/tags/tips-and-tricks/</link>
     <description>Recent content in Tips and Tricks on Khalid&#39;s Shell</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 29 Mar 2025 15:17:22 +0600</lastBuildDate><atom:link href="http://localhost:1313/en/tags/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2025 01:54:47 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Install Desktop Extensions in Firefox for Android</title>
       <link>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</link>
       <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
-      
       <guid>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</guid>
-      <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;
-&lt;h3 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;
-&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;
-&lt;h3 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;
-&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Visit &lt;a href=&#34;https://addons.mozilla.org&#34;&gt;addons.mozilla.org&lt;/a&gt; in Firefox and find the desktop extension you want.&lt;/li&gt;
-&lt;li&gt;Under the install button, you&amp;rsquo;ll now see a &lt;strong&gt;Download file&lt;/strong&gt; option. Tap it to download the &lt;code&gt;.xpi&lt;/code&gt; file.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Install the Extension&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Go back to &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;ll find a new option: &lt;strong&gt;Install extensions from file&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Select the downloaded &lt;code&gt;.xpi&lt;/code&gt; file to install the extension.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Verify Installation&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;After installation, check the extensions menu to ensure the extension is active.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;important-notes&#34;&gt;Important Notes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Compatibility Issues&lt;/strong&gt;: Some desktop extensions may not work properly on Android, as they aren&amp;rsquo;t optimized for mobile.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Performance Impact&lt;/strong&gt;: Extensions designed for desktop might slow down your browser or drain battery life.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Request Official Support&lt;/strong&gt;: If an extension doesn&amp;rsquo;t work, consider contacting the developer to request an Android-compatible version.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;If the Debug Menu doesn&amp;rsquo;t appear, restart Firefox and try again.&lt;/li&gt;
-&lt;li&gt;Ensure you&amp;rsquo;re using the latest version of Firefox for Android.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;By following these steps, you can enjoy your favorite desktop extensions on Firefox for Android. Happy browsing!&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;&#xA;&lt;h3 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Code Without a Computer</title>
       <link>http://localhost:1313/en/posts/coding-without-computer/</link>
       <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
-      
       <guid>http://localhost:1313/en/posts/coding-without-computer/</guid>
-      <description>&lt;p&gt;Many people want to learn programming but can&amp;rsquo;t because they don&amp;rsquo;t have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:&lt;/p&gt;
-&lt;h2 id=&#34;1-online-code-editors-and-compilers&#34;&gt;1. Online Code Editors and Compilers:&lt;/h2&gt;
-&lt;p&gt;The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like &lt;em&gt;online code editor&lt;/em&gt; or &lt;em&gt;online compiler&lt;/em&gt; in your search engine (or ask an AI chatbot), and you’ll find many options, such as &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Many people want to learn programming but can&amp;rsquo;t because they don&amp;rsquo;t have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:&lt;/p&gt;
-&lt;h2 id=&#34;1-online-code-editors-and-compilers&#34;&gt;1. Online Code Editors and Compilers:&lt;/h2&gt;
-&lt;p&gt;The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like &lt;em&gt;online code editor&lt;/em&gt; or &lt;em&gt;online compiler&lt;/em&gt; in your search engine (or ask an AI chatbot), and you’ll find many options, such as &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.&lt;/p&gt;
-&lt;h2 id=&#34;2-code-editor-apps&#34;&gt;2. Code Editor Apps:&lt;/h2&gt;
-&lt;p&gt;Apart from web-based options, there are many code editor apps available for Android. In my opinion, the best options are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://f-droid.org/packages/org.gnu.emacs/&#34;&gt;Emacs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/neovim/neovim/blob/master/INSTALL.md#android&#34;&gt;Neovim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Both are cross-platform, so you can use the same editor everywhere. Emacs is relatively easier to use. Neovim has a learning curve but it a is very powerful editor if you can master it. To run Neovim, you’ll need &lt;a href=&#34;https://termux.com/&#34;&gt;Termux&lt;/a&gt;. For both editors, you can find detailed instructions on their respective websites. Feel free to ask me if you need help.&lt;/p&gt;
-&lt;p&gt;For convenience, you can buy a separate keyboard and use it with your phone via USB OTG. A keyboard will make programming much easier. Alternatively, you can install one of the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://f-droid.org/packages/juloo.keyboard2/&#34;&gt;Unexpected Keyboard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/klausw/hackerskeyboard&#34;&gt;Hacker&amp;rsquo;s Keyboard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These apps allow you to use a computer-like keyboard on your mobile device.&lt;/p&gt;
-&lt;p&gt;There are many other code editor apps on the Play Store, but most are tagged &lt;em&gt;Contains ads&lt;/em&gt;, which I don’t prefer. However, I found one ad-free app called &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.alif.ide&#34;&gt;Code Studio&lt;/a&gt;. You can try it out.&lt;/p&gt;
-&lt;p&gt;Additionally, there are apps for learning programming, such as &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.hyperskill.app.android&#34;&gt;Hyperskill&lt;/a&gt;. These apps offer programming courses designed to be engaging, helping you stay motivated. Features like scoring and notifications will keep you inspired to learn coding.&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;Many people want to learn programming but can&amp;rsquo;t because they don&amp;rsquo;t have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-online-code-editors-and-compilers&#34;&gt;1. Online Code Editors and Compilers:&lt;/h2&gt;&#xA;&lt;p&gt;The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like &lt;em&gt;online code editor&lt;/em&gt; or &lt;em&gt;online compiler&lt;/em&gt; in your search engine (or ask an AI chatbot), and you’ll find many options, such as &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

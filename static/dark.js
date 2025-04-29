@@ -1,5 +1,4 @@
 let toggles = document.getElementsByClassName("dark-mode-toggle");
-let darkTheme = document.getElementById("dark-mode-theme");
 
 Array.from(toggles).forEach(toggle => {
   toggle.addEventListener("click", () => {
@@ -16,16 +15,14 @@ function setTheme(mode) {
   localStorage.setItem("dark-mode-storage", mode);
 
   if (mode === "dark") {
-    darkTheme.disabled = false;
+    document.documentElement.setAttribute("data-theme", "dark");
     Array.from(toggles).forEach(toggle => {
       toggle.classList.remove("moon");
       toggle.classList.add("sun");
 
       toggle.innerHTML = '☀️';
     });
-    document.documentElement.setAttribute("data-theme", "dark");
   } else if (mode === "light") {
-    darkTheme.disabled = true;
     Array.from(toggles).forEach(toggle => {
       toggle.classList.remove("sun");
       toggle.classList.add("moon");

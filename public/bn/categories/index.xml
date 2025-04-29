@@ -4,7 +4,8 @@
     <title>Categories on খালিদের শেল</title>
     <link>http://localhost:1313/bn/categories/</link>
     <description>Recent content in Categories on খালিদের শেল</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>bn-BD</language><atom:link href="http://localhost:1313/bn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>bn-BD</language>
+    <atom:link href="http://localhost:1313/bn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

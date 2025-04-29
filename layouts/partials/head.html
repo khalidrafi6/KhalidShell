@@ -22,10 +22,6 @@
 {{ $css := slice $default $search $style | resources.Concat "styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.Permalink }}">
 
-<!-- Custom styles for dark mode -->
-{{ $dark := resources.Get "dark.css" | minify | fingerprint }}
-<link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $dark.Permalink }}">
-
 <!-- Icons -->
 <link rel="shortcut icon" href="{{ "favicon.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">

@@ -4,7 +4,8 @@
     <title>Categories on Khalid&#39;s Shell</title>
     <link>http://localhost:1313/en/categories/</link>
     <description>Recent content in Categories on Khalid&#39;s Shell</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
