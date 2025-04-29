@@ -17,5 +17,5 @@ Let’s open the shell and explore the world of technology together!
 **Are you facing issues with your mobile or computer?**  
 **Want to experience something new by installing Linux?**  
 **Want to upgrade Android version of your old mobile?**
-**Or do you need some other IT [services](https://blog.khalidrafi.me/en/services)?
+**Or do you need some other IT [services](https://blog.khalidrafi.me/en/services)?**  
 **Hurry up!** [Contact me](mailto:khalidrafi.twzde@slmail.me)
