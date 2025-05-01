@@ -16,9 +16,9 @@
   {{- end -}}
 {{- else if $.Site.Params.AutoCover -}}
   {{- if (not .Params.Cover) -}}
-    {{- if .Resources.GetMatch "twitter.*" -}}
-      {{- $cover = (.Resources.GetMatch "twitter.*").RelPermalink -}}
-<meta property="twitter:image" content="{{ $cover }}">
+    {{- if .Resources.GetMatch "cover.*" -}}
+      {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+<meta property="og:image" content="{{ $cover }}">
     {{- end -}}
   {{- end -}}
 {{- end -}}
