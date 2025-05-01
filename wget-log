@@ -1,12 +1,0 @@
---2025-05-02 02:06:59--  https://www.digitaltrends.com/wp-content/uploads/2024/09/Both-colors.jpg?resize=800%2C418
-Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
-Resolving www.digitaltrends.com (www.digitaltrends.com)... 192.0.66.16
-Connecting to www.digitaltrends.com (www.digitaltrends.com)|192.0.66.16|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 26193 (26K) [image/jpeg]
-Saving to: ‘Both-colors.jpg?resize=800,418’
-
-          Both-colo   0%[                    ]       0  --.-KB/s                        Both-color  62%[===========>        ]  16.04K  24.4KB/s               Both-colors.jpg?res 100%[===================>]  25.58K  36.3KB/s    in 0.7s    
-
-2025-05-02 02:07:01 (36.3 KB/s) - ‘Both-colors.jpg?resize=800,418’ saved [26193/26193]
-
