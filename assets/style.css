@@ -24,7 +24,7 @@
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
-  column-gap: 5%;
+  column-gap: 6%;
 }
 
 #docsearch {
@@ -49,9 +49,13 @@
   font-size: 25px;
   /* margin-left: 5px; */
   /* margin-right: 5px; */
-  padding: 5px 8px;
+  padding: 10px 7px 8px 7px;
   /* line-height: 33px; */
   border-radius: 50%;
+}
+
+.dark-mode-toggle:hover {
+  background: var(--toggle);
 }
 
 /* #comments { */

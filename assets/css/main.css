@@ -5,9 +5,11 @@
   --font-size: 1rem;
   --line-height: 1.54em;
   --radius: 0;
+  --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
 }
 
 html[data-theme="dark"] {
+  --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
   --background: #1a170f;
   --foreground: #eceae5;
 }
