@@ -35,6 +35,7 @@
 <meta name="twitter:creator" content="@{{ $.Site.Params.Twitter.creator }}" />
 {{ end }}
 <meta property="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
     {{- if .Resources.GetMatch "twitter.*" -}}
       {{- $cover := (.Resources.GetMatch "twitter.*").RelPermalink -}}
 <meta property="twitter:image" content="{{ $cover }}">
