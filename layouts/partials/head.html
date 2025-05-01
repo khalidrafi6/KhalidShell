@@ -27,19 +27,11 @@
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
 
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image" />
-{{ if (isset $.Site.Params "twitter") }}
-  {{ if (isset $.Site.Params.Twitter "site") }}
-<meta name="twitter:site" content="@{{ $.Site.Params.Twitter.site }}" />
-  {{ end }}
-<meta name="twitter:creator" content="@{{ $.Site.Params.Twitter.creator }}" />
-{{ end }}
-<meta property="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-<meta property="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
-    {{- if .Resources.GetMatch "twitter.*" -}}
-      {{- $cover := (.Resources.GetMatch "twitter.*").RelPermalink -}}
-<meta property="twitter:image" content="{{ $cover }}">
-    {{- end -}}
+		<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="A tipster has suggested RedMagic might have a new gaming tablet ready for launch within two months." />
+<meta name="twitter:title" content="A new RedMagic gaming tablet could launch as early as this month" />
+<meta name="twitter:image" content="https://www.digitaltrends.com/wp-content/uploads/2024/09/Both-colors.jpg?resize=800%2C418&#038;p=1" />
+<meta name="twitter:creator" content="@PatrickS_Hearn" />
 
 <!-- OG data -->
 {{ partial "opengraph.html" . }}
