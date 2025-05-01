@@ -16,11 +16,8 @@
   {{- end -}}
 {{- else if $.Site.Params.AutoCover -}}
   {{- if (not .Params.Cover) -}}
-    {{- if .Resources.GetMatch "twitter.*" -}}
-      {{- $cover = (.Resources.GetMatch "twitter.*").RelPermalink -}}
 <meta property="og:image" content="{{ $cover }}">
-<meta property="twitter:image" content="{{ $cover }}">
-    {{- end -}}
+<meta property="twitter:image" content="https://www.digitaltrends.com/wp-content/uploads/2024/09/Both-colors.jpg?resize=800%2C418&amp;p=1">
   {{- end -}}
 {{- end -}}
 
