@@ -6,7 +6,7 @@ authorTwitter = ""
 cover = ""
 tags = ["Tips and Tricks", "Browsers"]
 keywords = []
-description = "Learn how to install desktop extensions on Firefox for Android with this hidden trick. Step-by-step guide to enable debug menu, download and install extension"
+description = "Learn how to install desktop extensions on Firefox for Android with this hidden trick."
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -14,7 +14,7 @@ hideComments = false
 
 Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there's a workaround to install desktop extensions on Firefox for Android. Here's a step-by-step guide:
 
-### Steps to Install Desktop Extensions
+## Steps to Install Desktop Extensions
 
 1. **Enable the Debug Menu**  
    - Open Firefox on your Android device.  
@@ -37,9 +37,5 @@ Firefox offers a wide range of extensions that enhance browsing on desktop, but 
 - **Compatibility Issues**: Some desktop extensions may not work properly on Android, as they aren't optimized for mobile.  
 - **Performance Impact**: Extensions designed for desktop might slow down your browser or drain battery life.  
 - **Request Official Support**: If an extension doesn't work, consider contacting the developer to request an Android-compatible version.  
-
-### Troubleshooting
-- If the Debug Menu doesn't appear, restart Firefox and try again.  
-- Ensure you're using the latest version of Firefox for Android.  
 
 By following these steps, you can enjoy your favorite desktop extensions on Firefox for Android. Happy browsing!
