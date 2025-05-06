@@ -2,7 +2,7 @@
 title = "Privacy Notice"
 +++
 
-When you visit this website, I collect some of your data through Simple Analytics. But don't worry. This data anonymized and cannot be used to identify you. I collect this data to gather general statistics about audience. However, if you have Do Not Track enabled in your browser, this data will not be collected. To know what data I collect, read [this](https://docs.simpleanalytics.com/what-we-collect) by Simple Analytics. Additionally, I use your browser's local storage to save your dark mode preference, so you don't need to reset it on every visit. 
+When you visit this website, I collect some of your data through Simple Analytics. But don't worry. This data anonymized and cannot be used to identify you. I collect this data to gather general statistics about audience. However, if you have **Do Not Track** enabled in your browser, this data will not be collected. To know what data I collect, read [this](https://docs.simpleanalytics.com/what-we-collect) by Simple Analytics. Additionally, I use your browser's local storage to save your dark mode preference, so you don't need to reset it on every visit. 
 
 This website relies on third-party services that have their own privacy policies:
 
