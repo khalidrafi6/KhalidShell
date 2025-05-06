@@ -36,6 +36,7 @@ weight = 1
 subtitle = "খালিদের তরফ থেকে প্রযুক্তি বিষয়ক টিউটোরিয়াল, পরামর্শ ও কৌশল, সমস্যার সমাধান"
 owner = "খালিদ"
 keywords = ""
+TocTitle = "সূচিপত্র"
 copyright = "© ২০২৫ খালিদ"
 menuMore = "আরো দেখুন"
 readMore = "আরো পড়ুন"
@@ -44,8 +45,8 @@ newerPosts = "নতুন পোস্ট"
 olderPosts = "পুরনো পোস্ট"
 missingContentMessage = "পেজটি পাওয়া যায়নি..."
 missingBackButtonLabel = "হোম পেজে ফিরে যান"
-minuteReadingTime = "min read"
-words = "words"
+minuteReadingTime = "মিনিটের পড়া"
+words = "টি শব্দ"
 tagPrepend = "বিষয়"
 
 [languages.bn.params.logo]
@@ -193,7 +194,7 @@ showLastUpdated = true
 # updatedDatePrefix = "Updated"
 
 # whether to show a page's estimated reading time
-# readingTime = false # default
+readingTime = true # default
 
 # whether to show a table of contents
 # can be overridden in a page's front-matter

@@ -6,14 +6,14 @@
     <description>Recent content in Tips and Tricks on Khalid&#39;s Shell</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 02 May 2025 02:56:10 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 16:01:22 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Install Desktop Extensions in Firefox for Android</title>
       <link>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</link>
       <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
       <guid>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</guid>
-      <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;&#xA;&lt;h3 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;&#xA;&lt;h2 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Code Without a Computer</title>

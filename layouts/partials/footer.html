@@ -12,7 +12,6 @@
     <!--    
     <div class="analytics">
        Simple Analytics - 100% privacy-first analytics 
-      <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
       This website uses <a href="https://simpleanalytics.com/">Simple Analytics</a> to collect anonymized usage statistics. You can learn what data they collect in their website.
     </div>
     -->
@@ -29,3 +28,4 @@
 {{ $js := resources.Get "search.js" | minify | fingerprint }}
 <script type="module" crossorigin src="{{ $js.Permalink }}"></script>
 <script src="{{ "dark.js" | absURL }}" type="text/javascript"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

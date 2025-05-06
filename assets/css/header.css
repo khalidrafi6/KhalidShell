@@ -1,6 +1,13 @@
 /* Fira Code: https://github.com/tonsky/FiraCode */
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
-@import "https://www.nerdfonts.com/assets/css/webfont.css";
+/* @import "https://www.nerdfonts.com/assets/css/webfont.css"; */
+
+/* @font-face { */
+/*   src: url('SymbolsNerdFont-Regular.ttf'); */
+/*   font-family: "Symbols Nerd Font"; */
+/*   font-weight: normal; */
+/*   font-style: normal; */
+/* } */
 
 .header {
   display: flex;

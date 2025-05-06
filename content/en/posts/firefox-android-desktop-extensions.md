@@ -4,11 +4,10 @@ title = 'How to Install Desktop Extensions in Firefox for Android'
 author = ""
 authorTwitter = "" 
 cover = ""
-tags = ["Tips and Tricks", "Browsers"]
+tags = ["Tips and Tricks", "Browsers", "Firefox", "Android"]
 keywords = []
 description = "Learn how to install desktop extensions on Firefox for Android with this hidden trick."
 showFullContent = false
-readingTime = false
 hideComments = false
 +++
 

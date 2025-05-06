@@ -17,9 +17,8 @@
 
 {{ $default := resources.Match "css/*.css" | resources.Concat "default.css" }}
 <!--INFINI Pizza Search stylesheet-->
-{{ $search := resources.Get "search.css" }}
-{{ $style := resources.Get "style.css" }}
-{{ $css := slice $default $search $style | resources.Concat "styles.css" | minify | fingerprint }}
+{{ $extra := resources.Match "*.css" | resources.Concat "extra.css" }}
+{{ $css := slice $default $extra | resources.Concat "styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.Permalink }}">
 
 <!-- Icons -->

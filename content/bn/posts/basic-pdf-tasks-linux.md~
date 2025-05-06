@@ -1,0 +1,59 @@
++++
+title = "পিডিএফের সাধারণ কিছু কাজ লিনাক্সে যেভাবে করবেন"
+date = "2025-05-03T16:40:38+06:00"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["", ""]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+hideComments = false
++++
+পিডিএফের কিছু কাজ আমাদের সাধারণত দরকার পড়ে যেমন পৃষ্ঠা ভাগ করা, একাধিক পিডিএফ জুড়ে দিয়ে নতুন পিডিএফ বানানো, পৃষ্ঠার ক্রম পরিবর্তন করা ইত্যাদি। চলুন দেখে নিই লিনাক্সে এ কাজগুলো কীভাবে করবেন:
+
+**প্রয়োজনীয় প্যাকেজ:**  
+[PDF Arranger](https://repology.org/project/pdfarranger/versions), [Poppler](https://repology.org/project/poppler/versions), [PDFtk](https://repology.org/project/pdftk/versions), [GraphicsMagick](https://repology.org/project/graphicsmagick/)
+
+### **১. পৃষ্ঠা ভাগ করা**
+**যেভাবে করবেন:**  
+- PDF Arranger এ ফাইল ওপেন করুন  
+- পৃষ্ঠা সিলেক্ট করে **Split Pages** অপশনে যান  
+- **Vertical Splits** (লম্বালম্বি) বা **Horizontal Splits** (আনুভূমিক) সিলেক্ট করুন  
+- Save (`CTRL+S`) বা Save As (`CTRL+Shift+S`) করুন
+
+### **২. একাধিক পিডিএফ একত্র করা**
+```bash
+pdfunite first.pdf second.pdf third.pdf output.pdf
+```
+
+### **৩. পৃষ্ঠা বিচ্ছিন্ন করা**
+একটি পৃষ্ঠা আলাদা করতে:
+```bash
+pdftk infile.pdf cat first-last output outfile.pdf
+```
+বহু পৃষ্ঠা আলাদা করতে:
+```bash
+pdfseparate -f first -l last infile.pdf outfile-%d.pdf
+```
+
+### **৪. পৃষ্ঠার ক্রম পরিবর্তন করা**
+PDF Arranger এ ড্র্যাগ-অ্যান্ড-ড্রপ করে ক্রম বদলান
+
+### **৫. ছবি থেকে পিডিএফ তৈরি**
+```bash
+gm convert 1.jpg 2.jpg 3.jpg out.pdf
+```
+
+### **৬. পিডিএফকে ছবিতে রূপান্তর**
+সমস্ত পৃষ্ঠা রূপান্তর:
+```bash
+pdftoppm -jpeg infile.pdf outfile
+```
+একটি পৃষ্ঠা রূপান্তর:
+```bash
+pdftoppm -jpeg -f page -singlefile infile.pdf outfile
+```
+
+> ArchWiki থেকে তথ্য নেয়া হয়েছে। আরো জানতে [এই লিংকটি](https://wiki.archlinux.org/title/PDF,_PS_and_DjVu) দেখুন।

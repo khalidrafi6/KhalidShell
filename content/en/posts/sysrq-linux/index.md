@@ -8,7 +8,6 @@ tags = ["Linux", "Troubleshooting"]
 keywords = ["Linux SysRq commands", "Recover frozen Linux", "Linux troubleshooting", "SysRq reboot command", "enable SysRq", "SysRq commands list"]  
 description = "Learn how to setup and use Linux SysRq commands to recover a frozen system, troubleshoot crashes, and safely reboot."
 showFullContent = false
-readingTime = false
 hideComments = false
 +++
 

@@ -8,7 +8,6 @@ tags = ["Tips and Tricks", "Programming"]
 keywords = ["coding without computer", "learn programming on mobile", "android programming", "mobile code editor"]
 description = "Learn how to code without a computer using just your mobile device. Discover online code editors and Android apps for programming on the go."
 showFullContent = false
-readingTime = false
 hideComments = false
 +++
 
