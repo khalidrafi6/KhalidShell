@@ -66,6 +66,20 @@
 /*   margin: 0 auto; */
 /* } */
 
+.menu__trigger {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+
+.lang-down {
+  font-size: 20px;
+}
+
+.menu__dropdown {
+  width: max-content;
+}
+
 .social-icon {
   display: flex;
   font-size: 30px;

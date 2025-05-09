@@ -6,12 +6,12 @@
     <description>Recent content in Posts on Khalid&#39;s Shell</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 08 May 2025 15:48:51 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 16:11:59 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Do Common PDF Tasks in Linux</title>
       <link>http://localhost:1313/en/posts/common-pdf-tasks-linux/</link>
-      <pubDate>Thu, 08 May 2025 15:48:51 +0600</pubDate>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/posts/common-pdf-tasks-linux/</guid>
       <description>&lt;p&gt;We often need to do PDF tasks like splitting pages, merging multiple PDFs, rearranging pages, etc. New Linux users might struggle with these. Let&amp;rsquo;s see how to do these common PDF tasks on Linux:&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-before-we-start&#34;&gt;0. Before we start&lt;/h2&gt;&#xA;&lt;h3 id=&#34;required-packages&#34;&gt;&lt;em&gt;Required Packages&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdfarranger/versions&#34;&gt;PDF Arranger&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/poppler/versions&#34;&gt;Poppler&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdftk/versions&#34;&gt;PDFtk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/graphicsmagick/&#34;&gt;GraphicsMagick&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;installation&#34;&gt;&lt;em&gt;Installation&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Debian:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arch Linux:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S pdfarranger poppler pdftk graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;br&gt;&#xA;&lt;h2 id=&#34;1-how-to-split-pdf-pages-in-linux&#34;&gt;1. How to split PDF pages in Linux&lt;/h2&gt;&#xA;&lt;p&gt;You can split the pages of a PDF in two ways - vertically and horizontally. Both can be done in &lt;strong&gt;PDF Arranger&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
