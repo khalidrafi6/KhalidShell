@@ -21,7 +21,7 @@
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/styles.min.f9dbed6a9206cfb11ef45cec671d61b6771696efec7c1dd1e12b4d00d979680e.css">
+<link rel="stylesheet" href="http://localhost:1313/styles.min.156a3e550cae7f9786b316e6d0c945516dcc9f7a64f516834437f62bbf961ac2.css">
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -124,7 +124,7 @@
     
     
       <ul class="menu menu--desktop menu--language-selector">
-  <li class="menu__trigger nf nf-fa-language"><i class="lang-down">&nbsp;▾</i></li>
+  <li class="menu__trigger"><i class="lang-icon nf nf-fa-language"></i><i class="dropdown-icon">&nbsp;▾</i></li>
   <li>
     <ul class="menu__dropdown">
         <li><a href="#"> English</a></li>
@@ -234,7 +234,28 @@
 
         <div class="post-content">
           
-            <p>Learn how to split, merge, extract pages, reorder, and convert PDFs on Linux using command-line tools like pdftk, pdfunite, and GUI tools like PDF Arranger.</p>
+            <p>We often need to do PDF tasks like splitting pages, merging multiple PDFs, rearranging pages, etc. New Linux users might struggle with these. Let&rsquo;s see how to do these common PDF tasks on Linux:
+<br><br></p>
+<h2 id="0-before-we-start">0. Before we start</h2>
+<h3 id="required-packages"><em>Required Packages</em></h3>
+<ul>
+<li><a href="https://repology.org/project/pdfarranger/versions">PDF Arranger</a></li>
+<li><a href="https://repology.org/project/poppler/versions">Poppler</a></li>
+<li><a href="https://repology.org/project/pdftk/versions">PDFtk</a></li>
+<li><a href="https://repology.org/project/graphicsmagick/">GraphicsMagick</a></li>
+</ul>
+<h3 id="installation"><em>Installation</em></h3>
+<ul>
+<li>Debian:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick
+</span></span></code></pre></div></li>
+<li>Arch Linux:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S pdfarranger poppler pdftk graphicsmagick
+</span></span></code></pre></div></li>
+</ul>
+ <br>
+<h2 id="1-how-to-split-pdf-pages-in-linux">1. How to split PDF pages in Linux</h2>
+<p>You can split the pages of a PDF in two ways - vertically and horizontally. Both can be done in <strong>PDF Arranger</strong>.</p>
           
         </div>
 
@@ -307,7 +328,19 @@
 
         <div class="post-content">
           
-            <p>Learn how to install desktop extensions on Firefox for Android with this hidden trick.</p>
+            <p>Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&rsquo;s a step-by-step guide:</p>
+<h2 id="steps-to-install-desktop-extensions">Steps to Install Desktop Extensions</h2>
+<ol>
+<li>
+<p><strong>Enable the Debug Menu</strong></p>
+<ul>
+<li>Open Firefox on your Android device.</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>About Firefox</strong>.</li>
+<li>Tap the Firefox logo <strong>7 times</strong> to enable the <strong>Debug Menu</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Download the Extension</strong></p>
           
         </div>
 
@@ -376,7 +409,9 @@
 
         <div class="post-content">
           
-            <p>Learn how to code without a computer using just your mobile device. Discover online code editors and Android apps for programming on the go.</p>
+            <p>Many people want to learn programming but can&rsquo;t because they don&rsquo;t have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:</p>
+<h2 id="1-online-code-editors-and-compilers">1. Online Code Editors and Compilers:</h2>
+<p>The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like <em>online code editor</em> or <em>online compiler</em> in your search engine (or ask an AI chatbot), and you’ll find many options, such as <a href="http://codepen.io/">CodePen</a>, which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.</p>
           
         </div>
 
@@ -445,7 +480,7 @@
 
         <div class="post-content">
           
-            <p>Learn how to setup and use Linux SysRq commands to recover a frozen system, troubleshoot crashes, and safely reboot.</p>
+            <p>Linux <strong>SysRq</strong> commands are a lifesaver when your system freezes or becomes unresponsive. The kernel always responds to these commands, no matter what state the computer is in. However, if the kernel itself is completely locked up, that&rsquo;s a different story. The <strong>SysRq</strong> feature is extremely useful when system issues occur. For example, if your Linux is frozen and stops responding to any input, you can use <strong>SysRq</strong> command to shut down or reboot the computer.</p>
           
         </div>
 

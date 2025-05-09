@@ -9,11 +9,10 @@
       {{ end }}
       {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
         <hr />
-        {{ range $.Site.Home.AllTranslations }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-          </li>
-        {{ end }}
+        <li><a href="#"> {{ .Language.LanguageName }}</a></li>
+      {{ range $.Site.Home.Translations }}
+        <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+      {{ end }}
       {{ end }}
     </ul>
   </li>

@@ -68,12 +68,16 @@
 
 .menu__trigger {
   display: flex;
-  font-size: 25px;
   align-items: center;
+  column-gap: 8%;
 }
 
-.lang-down {
-  font-size: 20px;
+.lang-icon {
+  font-size: 30px;
+}
+
+.dropdown-icon {
+  font-size: 30px;
 }
 
 .menu__dropdown {
