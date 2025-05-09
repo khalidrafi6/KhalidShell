@@ -1,5 +1,4 @@
 {{ define "main" }}
-<h1>{{ .Site.Params.TagPrepend }}: {{ .Title }}</h1>
   {{ with .Content }}
     <div class="index-content">
       {{ . }}
@@ -8,13 +7,13 @@
   <div class="posts">
     {{ range .Paginator.Pages }}
       <article class="post on-list">
-        <h1 class="post-title">
+        <h2 class="post-title">
           <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-        </h1>
+        </h2>
         <div class="post-meta">
           {{- if .Date -}}
             <time class="post-date">
-            {{- partial "post-date" . -}}
+              {{- partial "post-date" . -}}
             </time>
           {{- end -}}
           {{- with .Params.Author -}}
@@ -32,7 +31,7 @@
           </span>
         {{ end }}
 
-        {{ partialCached "cover.html" . }}
+        {{ partial "cover.html" . }}
 
         <div class="post-content">
           {{ if .Params.showFullContent }}
@@ -43,13 +42,13 @@
         </div>
 
         {{ if not .Params.showFullContent }}
-          <div>
-            <a class="read-more button inline" href="{{ .RelPermalink }}">{{ $.Site.Params.ReadMore }}</a>
+           <div>
+            <a class="read-more button inline" href="{{ .RelPermalink }}">[{{ $.Site.Params.ReadMore }}]</a>
           </div>
         {{ end }}
       </article>
     {{ end }}
 
-    {{ partialCached "pagination.html" . }}
+    {{ partial "pagination.html" . }}
   </div>
 {{ end }}

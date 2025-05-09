@@ -180,8 +180,40 @@
         <h2 class="post-title">
           <a href="http://localhost:1313/bn/posts/common-pdf-tasks-linux/">পিডিএফের সাধারণ কাজ লিনাক্সে যেভাবে করবেন</a>
         </h2>
-        <div class="post-meta"><time class="post-date">০৯-০৫-২০২৫
-</time></div>
+        <div class="post-meta"><time class="post-date">
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    ০৯-০৫-২০২৫</time></div>
 
         
           <span class="post-tags">
@@ -202,7 +234,27 @@
 
         <div class="post-content">
           
-            <p>জেনে নিন, পিডিএফের সাধারণ কাজগুলো কীভাবে লিনাক্সে করবেন</p>
+            <p>পিডিএফের কিছু কাজ আমাদের সাধারণত দরকার পড়ে যেমন পৃষ্ঠা ভাগ করা, একাধিক পিডিএফ জুড়ে দিয়ে নতুন পিডিএফ বানানো, পৃষ্ঠার ক্রম পরিবর্তন করা ইত্যাদি। যারা নতুন লিনাক্সে এসেছেন, তারা এই কাজগুলো করতে হিমশিম খেতে পারেন। চলুন দেখে নিই, লিনাক্সে এ কাজগুলো কীভাবে করবেন:
+<br><br></p>
+<h2 id="০-শর-করর-পরব">০. শুরু করার পূর্বে</h2>
+<h3 id="পরযজনয-পযকজ">প্রয়োজনীয় প্যাকেজ</h3>
+<ul>
+<li><a href="https://repology.org/project/pdfarranger/versions">PDF Arranger</a></li>
+<li><a href="https://repology.org/project/poppler/versions">Poppler</a></li>
+<li><a href="https://repology.org/project/pdftk/versions">PDFtk</a></li>
+<li><a href="https://repology.org/project/graphicsmagick/">GraphicsMagick</a></li>
+</ul>
+<h3 id="ইনসটল-পরকরয়">ইন্সটল প্রক্রিয়া</h3>
+<ul>
+<li>Debian:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick
+</span></span></code></pre></div></li>
+<li>Arch Linux:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pacman -S pdfarranger poppler pdftk graphicsmagick
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="১-পষঠ-ভগ-কর">১. পৃষ্ঠা ভাগ করা</h2>
+<p>একটা পিডিএফের পৃষ্ঠাগুলো দুইভাবে ভাগ করা যেতে পারে, লম্বালম্বি আর আনুভূমিক। <strong>PDF Arranger</strong> এ দুইটাই করতে পারবেন।</p>
           
         </div>
 
@@ -217,8 +269,40 @@
         <h2 class="post-title">
           <a href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/">ফায়ারফক্স অ্যান্ড্রয়েডে ডেস্কটপ এক্সটেনশন ইন্সটল করার কৌশল</a>
         </h2>
-        <div class="post-meta"><time class="post-date">২৯-০৩-২০২৫
-</time></div>
+        <div class="post-meta"><time class="post-date">
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    ২৯-০৩-২০২৫</time></div>
 
         
           <span class="post-tags">
@@ -243,7 +327,26 @@
 
         <div class="post-content">
           
-            <p>জেনে নিন কীভাবে ফায়ারফক্স অ্যান্ড্রয়েডে ডেস্কটপ এক্সটেনশন ইন্সটল করবেন</p>
+            <p>ফায়ারফক্সে ব্রাউজিং উন্নত করার জন্য অসংখ্য এক্সটেনশন আছে। কিন্তু ভাল ভাল কিছু এক্সটেনশন অ্যান্ড্রয়েডে পাওয়া যায় না। সৌভাগ্যক্রমে, ফায়ারফক্স অ্যান্ড্রয়েডে ডেস্কটপ এক্সটেনশন ইন্সটল করার একটি কৌশল আছে। চলুন দেখে নেই সেটা।</p>
+<h3 id="ফয়রফকস-অযনডরয়ড-যভব-ডসকটপ-একসটনশন-ইনসটল-করবন">ফায়ারফক্স অ্যান্ড্রয়েডে যেভাবে ডেস্কটপ এক্সটেনশন ইন্সটল করবেন</h3>
+<ol>
+<li>
+<p><strong>Debug Menu চালু করুন</strong></p>
+<ul>
+<li>আপনার অ্যান্ড্রয়েড ডিভাইসে ফায়ারফক্স খুলুন।</li>
+<li><strong>Settings</strong> &gt; <strong>About Firefox</strong> যান।</li>
+<li>ফায়ারফক্স লোগোতে <strong>৭ বার</strong> ট্যাপ করে <strong>Debug Menu</strong> চালু করুন।</li>
+</ul>
+</li>
+<li>
+<p><strong>এক্সটেনশন ডাউনলোড করুন</strong></p>
+<ul>
+<li>ফায়ারফক্সে <a href="https://addons.mozilla.org">addons.mozilla.org</a> ভিজিট করুন এবং আপনার পছন্দের ডেস্কটপ এক্সটেনশন খুঁজুন।</li>
+<li>ইন্সটল বাটনের নিচে এখন <strong>Download file</strong> অপশন দেখতে পাবেন। এটি ট্যাপ করে <code>.xpi</code> ফাইল ডাউনলোড করুন।</li>
+</ul>
+</li>
+<li>
+<p><strong>এক্সটেনশন ইন্সটল করুন</strong></p>
           
         </div>
 
@@ -258,8 +361,40 @@
         <h2 class="post-title">
           <a href="http://localhost:1313/bn/posts/coding-without-computer/">কম্পিউটার ছাড়াই যেভাবে প্রোগ্রামিং করবেন</a>
         </h2>
-        <div class="post-meta"><time class="post-date">০১-০৩-২০২৫
-</time></div>
+        <div class="post-meta"><time class="post-date">
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    ০১-০৩-২০২৫</time></div>
 
         
           <span class="post-tags">
@@ -280,7 +415,9 @@
 
         <div class="post-content">
           
-            <p>প্রোগ্রামিং শিখতে চান, কিন্তু কম্পিউটার নেই? জেনে নিন কম্পিউটার ছাড়াই কীভাবে প্রোগ্রামিং করবেন। কেবলমাত্র হাতের মোবাইল দিয়েই প্রোগ্রামিং সম্ভব।</p>
+            <p>অনেকেই হয়তো প্রোগ্রামিং শিখতে চান, কিন্তু কম্পিউটার নেই বলে শিখতে পারেন না।  তাদের জন্য সুসংবাদ হচ্ছে, আপনি মোবাইল দিয়েও প্রোগ্রামিং শিখতে পারবেন। চলুন দেখে নিই কম্পিউটার ছাড়া শুধুমাত্র হাতের  মোবাইল দিয়েই কীভাবে প্রোগ্রামিং করবেন :</p>
+<h2 id="১-অনলইন-কড-এডটর-ও-কমপইলর">১. অনলাইন কোড এডিটর ও কম্পাইলার</h2>
+<p>মোবাইলে প্রোগ্রামিং করার সবচেয়ে সহজ উপায় হচ্ছে অনলাইন কোড এডিটর ও কম্পাইলার। আপনার সার্চ ইঞ্জিনে (অথবা AI chatbot এ) <strong>online code editor</strong> বা <strong>online compiler</strong> লিখে সার্চ দিলে অনেক অপশন পেয়ে যাবেন, যেমন <a href="http://codepen.io/">CodePen</a>, যেটা একটা Front-end Web Development Environment. এটার সুবিধা হচ্ছে আপনি ব্রাউজার থেকেই কোডিং করতে পারবেন। কোন বাড়তি অ্যাপ ইন্সটল করতে হবে না। আপনার মোবাইল খুব উঁচুমানের না হলেও কাজ চালিয়ে নিতে পারবেন। তবে মোবাইলটাতে অবশ্যই ইন্টারনেট ব্রাউজ করার সুবিধা থাকতে হবে। যদি সার্চ ইঞ্জিনে আপনার প্রোগ্রামিং ল্যাঙ্গুয়েজের জন্য সাপোর্টেড কোড এডিটর বা কম্পাইলার খুঁজে পেতে সমস্যা হয়, তবে উক্ত ল্যাঙ্গুয়েজটির নাম উল্লেখ করে সার্চ করুন।</p>
           
         </div>
 
@@ -295,8 +432,40 @@
         <h2 class="post-title">
           <a href="http://localhost:1313/bn/posts/sysrq-linux/">লিনাক্স হ্যাং হয়ে গেছে? SysRq কমান্ড দিয়ে যেভাবে সিস্টেমের সমস্যাগুলো সুন্দরভাবে সামলাবেন</a>
         </h2>
-        <div class="post-meta"><time class="post-date">০১-০৩-২০২৫
-</time></div>
+        <div class="post-meta"><time class="post-date">
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    ০১-০৩-২০২৫</time></div>
 
         
           <span class="post-tags">
@@ -317,7 +486,9 @@
 
         <div class="post-content">
           
-            <p>লিনাক্স সিস্টেম হ্যাং হলে SysRq কমান্ড ব্যবহার করে কিভাবে রিকভার করবেন, ক্র্যাশ সমাধান করবেন এবং নিরাপদে রিবুট করবেন - ধাপে ধাপে গাইড। জানুন কীভাবে SysRq সেটআপ ও ব্যবহার করতে হয়</p>
+            <p>লিনাক্স হ্যাং হয়ে গেলে <strong>SysRq</strong> কমান্ডগুলো খুব কাজে লাগে। কম্পিউটার যে অবস্থাতেই থাকুক না কেন কার্নেল সবসময় এই কমান্ডগুলোতে সাড়া দেয়। তবে কার্নেল নিজেই সম্পূর্ণ লক হয়ে গেলে ভিন্ন কথা। সিস্টেমে সমস্যা দেখা দিলে <strong>SysRq</strong> ফিচার অত্যন্ত উপকারী। উদাহরণস্বরূপ, আপনার লিনাক্স হ্যাং হয়ে গেলে এবং কোন ইনপুটেই সাড়া না দিলে, <strong>SysRq</strong> কমান্ড  ব্যবহার করে কম্পিউটার বন্ধ বা রিবুট করতে পারবেন।</p>
+<h2 id="sysrq-কভব-চল-করবন">SysRq কিভাবে চালু করবেন</h2>
+<p>আপনার কার্নেল <strong>SysRq</strong> সাপোর্ট সহ কম্পাইল করা থাকলে, <code>/proc/sys/kernel/sysrq</code> এর মাধ্যমে এটির ফাংশনগুলো চালু/বন্ধ করতে পারবেন। <code>/proc/sys/kernel/sysrq</code> ফাইলে নিচের মানগুলো থাকতে পারে:</p>
           
         </div>
 
