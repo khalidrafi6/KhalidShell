@@ -2,30 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/tags/android/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/browsers/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/firefox/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
+    <loc>http://localhost:1313/en/posts/common-pdf-tasks-linux/</loc>
+    <lastmod>2025-05-08T15:48:51+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
-                href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/"
+                href="http://localhost:1313/bn/posts/common-pdf-tasks-linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/firefox-android-desktop-extensions/"
+                href="http://localhost:1313/en/posts/common-pdf-tasks-linux/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/tags/linux/</loc>
+    <lastmod>2025-05-08T15:48:51+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/pdf/</loc>
+    <lastmod>2025-05-08T15:48:51+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
+    <lastmod>2025-05-08T15:48:51+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -38,7 +35,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
+    <lastmod>2025-05-08T15:48:51+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -50,11 +47,46 @@
                 href="http://localhost:1313/en/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/privacy/</loc>
+    <lastmod>2025-05-06T13:03:59+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/privacy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/android/</loc>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/browsers/</loc>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/firefox/</loc>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</loc>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/posts/firefox-android-desktop-extensions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/posts/firefox-android-desktop-extensions/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/tips-and-tricks/</loc>
-    <lastmod>2025-05-02T16:01:22+06:00</lastmod>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/coding-without-computer/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -66,11 +98,8 @@
                 href="http://localhost:1313/en/posts/coding-without-computer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/linux/</loc>
-    <lastmod>2025-05-02T02:45:52+06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/posts/sysrq-linux/</loc>
-    <lastmod>2025-05-02T02:45:52+06:00</lastmod>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -83,10 +112,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/programming/</loc>
-    <lastmod>2025-04-27T16:25:18+06:00</lastmod>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/troubleshooting/</loc>
-    <lastmod>2025-05-02T02:45:52+06:00</lastmod>
+    <lastmod>2025-05-06T12:54:41+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-04-30T03:19:10+06:00</lastmod>
@@ -124,19 +153,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/en/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/privacy/</loc>
-    <lastmod>2025-04-24T04:14:59+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn-BD"
-                href="http://localhost:1313/bn/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/privacy/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>

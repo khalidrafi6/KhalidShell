@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Khalid&#39;s Shell</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 02 May 2025 16:01:22 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 08 May 2025 15:48:51 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/en/tags/linux/</link>
+      <pubDate>Thu, 08 May 2025 15:48:51 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PDF</title>
+      <link>http://localhost:1313/en/tags/pdf/</link>
+      <pubDate>Thu, 08 May 2025 15:48:51 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/pdf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Android</title>
       <link>http://localhost:1313/en/tags/android/</link>
@@ -34,13 +48,6 @@
       <link>http://localhost:1313/en/tags/tips-and-tricks/</link>
       <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
       <guid>http://localhost:1313/en/tags/tips-and-tricks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/en/tags/linux/</link>
-      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
-      <guid>http://localhost:1313/en/tags/linux/</guid>
       <description></description>
     </item>
     <item>

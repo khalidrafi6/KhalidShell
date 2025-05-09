@@ -6,8 +6,15 @@
     <description>Recent content in লিনাক্স on খালিদের শেল</description>
     <generator>Hugo</generator>
     <language>bn-BD</language>
-    <lastBuildDate>Wed, 30 Apr 2025 02:08:45 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 12:54:41 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/bn/tags/%E0%A6%B2%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>পিডিএফের সাধারণ কাজ লিনাক্সে যেভাবে করবেন</title>
+      <link>http://localhost:1313/bn/posts/common-pdf-tasks-linux/</link>
+      <pubDate>Sat, 03 May 2025 16:40:38 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/common-pdf-tasks-linux/</guid>
+      <description>&lt;p&gt;পিডিএফের কিছু কাজ আমাদের সাধারণত দরকার পড়ে যেমন পৃষ্ঠা ভাগ করা, একাধিক পিডিএফ জুড়ে দিয়ে নতুন পিডিএফ বানানো, পৃষ্ঠার ক্রম পরিবর্তন করা ইত্যাদি। যারা নতুন লিনাক্সে এসেছেন, তারা এই কাজগুলো করতে হিমশিম খেতে পারেন। চলুন দেখে নিই, লিনাক্সে এ কাজগুলো কীভাবে করবেন:&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;০-পরব-পরসতত&#34;&gt;০. পূর্ব-প্রস্তুতি&lt;/h2&gt;&#xA;&lt;h3 id=&#34;পরযজনয-পযকজ&#34;&gt;প্রয়োজনীয় প্যাকেজ&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdfarranger/versions&#34;&gt;PDF Arranger&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/poppler/versions&#34;&gt;Poppler&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdftk/versions&#34;&gt;PDFtk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/graphicsmagick/&#34;&gt;GraphicsMagick&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ইনসটল-পরকরয়&#34;&gt;ইন্সটল প্রক্রিয়া&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Debian:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arch Linux:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S pdfarranger poppler pdftk graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;১-পষঠ-ভগ-কর&#34;&gt;১. পৃষ্ঠা ভাগ করা&lt;/h2&gt;&#xA;&lt;p&gt;একটা পিডিএফের পৃষ্ঠাগুলো দুইভাবে ভাগ করা যেতে পারে, লম্বালম্বি আর আনুভূমিক। &lt;strong&gt;PDF Arranger&lt;/strong&gt; এ দুইটাই করতে পারবেন।&lt;/p&gt;</description>
+    </item>
     <item>
       <title>লিনাক্স হ্যাং হয়ে গেছে? SysRq কমান্ড দিয়ে যেভাবে সিস্টেমের সমস্যাগুলো সুন্দরভাবে সামলাবেন</title>
       <link>http://localhost:1313/bn/posts/sysrq-linux/</link>
