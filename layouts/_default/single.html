@@ -11,7 +11,7 @@
             {{- partial "post-date" . -}}
             {{ end }}
             {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
-              {{ if ne .Date .Lastmod }}
+              {{ if not (eq .Date .Lastmod) }}
               &nbsp;{{- partial "post-lastmod" . -}}
               {{ end }}
             {{- end -}}
