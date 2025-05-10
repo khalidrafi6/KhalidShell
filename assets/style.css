@@ -80,6 +80,11 @@
   font-size: 30px;
 }
 
+.current-lang {
+  align-items: baseline;
+  column-gap: 5%;
+}
+
 .menu__dropdown {
   width: max-content;
 }
@@ -95,11 +100,11 @@
   justify-content: space-between;
 }
 
-.post-translation a {
+/* .post-translation a { */
   /* color: var(--background); */
   /* background: var(--accent); */
   /* padding: 5px 10px; */
-}
+/* } */
 
 .footer {
   text-align: center;
