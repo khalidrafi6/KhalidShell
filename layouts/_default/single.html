@@ -8,11 +8,11 @@
         {{- if .Date -}}
           <time class="post-date">
             {{ if not (eq .File.BaseFileName "privacy") }}
-            {{- partial "post-date" . -}}
+              {{- partial "post-date" . -}}
             {{ end }}
             {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
-              {{ if eq .Date .Lastmod }}
-              &nbsp;{{- partial "post-lastmod" . -}}
+              {{ if ne .Date .Lastmod }}
+                &nbsp;{{- partial "post-lastmod" . -}}
               {{ end }}
             {{- end -}}
           </time>

@@ -9,7 +9,7 @@ cover = ""
 Toc = true
 tags = ["লিনাক্স", "পিডিএফ"]
 keywords = ["", ""]
-description = "জেনে নিন, পিডিএফের সাধারণ কাজগুলো কীভাবে লিনাক্সে করবেন"
+description = "পিডিএফের সাধারণ কাজ (যেমন স্প্লিট, মার্জ, ছবি থেকে পিডিএফ তৈরি) লিনাক্সে কীভাবে করবেন "
 showFullContent = false
 hideComments = false
 +++
