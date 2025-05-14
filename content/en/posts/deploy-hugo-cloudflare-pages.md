@@ -1,6 +1,7 @@
 +++
 title = "Deploy Hugo Cloudflare Pages"
 date = "2025-05-14T15:49:47+06:00"
+draft = true
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
 authorTwitter = "" #do not include @
