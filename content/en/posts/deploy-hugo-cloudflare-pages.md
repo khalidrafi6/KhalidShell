@@ -30,5 +30,11 @@ Cloudflare offers three ways to deploy your static site to Pages. However, I'll 
 3. Under **Build settings**, choose **Hugo** as your **Framework preset**.
 4. Enter `hugo` in **Build command** field.
 5. Hugo publishes your site to `public/`. So, your **Build output directory** should be `public`.
-6. Now, select **Save & Deploy**. Cloudflare will now build your site and deploy it to *Region: Earth*
-7. If you want to use a custom domain, select **Add a custom domain**. 
+6. Now, select **Save & Deploy**. Cloudflare will now build your site and deploy it to ~~*Region: Earth*~~ Cloudflare's global network.
+7. If you want to use a custom domain, now select **Add a custom domain**.
+Set up a custom domain
+enter domain
+confirm new dns record
+activate domain
+blog.khalidrafi.me is being set up. It may take up to 48 hours for DNS records to update and for your site to become viewable by visitors.
+wait a bit, it will show active
