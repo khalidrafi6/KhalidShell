@@ -1,3 +1,7 @@
+.notes::before {
+  content: "";
+}
+
 .menu--desktop {
   align-items: center;
   justify-content: center;

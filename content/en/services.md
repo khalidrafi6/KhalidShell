@@ -39,4 +39,5 @@ You can choose your preferred assistance method!
 ## Payments
 All projects receive fixed-price quotes after initial assessment. Payment method will be discussed, too!
 
-__Ready to get started? Email me: [khalidrafi.twzde@slmail.me](mailto:khalidrafi.twzde@slmail.me). I’ll respond within 24 hours.__  
+## Contact
+__Ready to get started? Email me: [khalidrafi.twzde@slmail.me](mailto:khalids_shell.l3rmw@slmail.me). I’ll respond within 24 hours.__  
