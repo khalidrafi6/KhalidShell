@@ -12,9 +12,7 @@ description = "Learn how to deploy your static site generated with Hugo to Cloud
 showFullContent = false
 hideComments = false
 +++
-Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I'm unsure [how genuine that is!](https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy). Remember, they're an American company. But, that's out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform [we use ourselves](https://blog.khalidrafi.me/en/privacy) for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I'll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I'll cover the **Git Integration** method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages.
-
-Alright, let's begin:
+Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I'm unsure [how genuine that is!](https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy). Remember, they're an American company. But, that's out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform [we use ourselves](https://blog.khalidrafi.me/en/privacy) for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I'll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I'll cover the **Git Integration** method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages. Alright, let's begin!
 
 
 ## Connect Your GitHub Repo to Pages
@@ -48,6 +46,6 @@ Alright, let's begin:
 
 For further details, refer to [Cloudflare Pages Docs](https://developers.cloudflare.com/pages).
 
-Still stuck? I provide IT support [services](https://blog.khalidrafi.me/en/services) and can help you with this from beginning to end! Feel free to [contact](http://blog.khalidrafi.me/en/services/#contact) me. Let me deal with this task for you!!
+Still stuck? I provide IT support [services](../services) and can help you with this from beginning to end! Feel free to [contact](../services/#contact) me. Let me deal with this task for you!!
 
 Thanks for reading. If you liked this tutorial, please share it and support me.
