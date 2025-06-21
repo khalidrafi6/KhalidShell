@@ -14,9 +14,11 @@ __কাস্টম রম ইন্সটল করে আপনার পু�
 __কিংবা অন্য যেকোন প্রযুক্তি [সহায়তা](https://blog.khalidrafi.me/bn/services/) প্রয়োজন?__  
 __চিন্তা নেই! যোগাযোগ করুন:__
 
-<div class="social-icon">
-    <a href="mailto:khalidershell.duarg@slmail.me" class="nf nf-cod-mail"></a>
-    <a href="https://t.me/khalidershell" class="nf nf-fae-telegram"></a>
-    <a href="https://x.com/khalidershell" class="nf nf-dev-twitter"></a>
-    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="nf nf-fa-facebook"></a>
+<div class="social-icons">
+    <a href="mailto:khalidershell.duarg@slmail.me" class="social-icon mail-icon"></a>
+    <a href="https://t.me/khalidershell" class="social-icon telegram-icon"></a>
+    <a href="https://x.com/khalidershell" class="social-icon twitter-icon"></a>
+    <a href="https://www.facebook.com/profile.php?id=61575714120165" class="social-icon facebook-icon"></a>
+    <a href="https://hikmah.net/@khalidershell" class="social-icon hikmah-icon"></a>
+</svg>
 </div>

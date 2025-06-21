@@ -1,6 +1,7 @@
 +++
 title = "Cloudflare Pages ব্যবহার করে যেভাবে আপনার Hugo সাইট হোস্ট করবেন"
 date = "2025-05-19"
+lastmod = "2025-05-19"
 #dateFormat = "2006-01-02 "
 author = ""
 authorTwitter = ""

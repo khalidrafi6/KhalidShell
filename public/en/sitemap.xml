@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2025-05-28T12:00:11+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn-BD"
+                href="http://localhost:1313/bn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/cloudflare-pages/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -16,13 +29,13 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/github/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/hosting-and-deployment/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -35,7 +48,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/hugo/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -47,24 +60,11 @@
                 href="http://localhost:1313/en/tags/hugo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn-BD"
-                href="http://localhost:1313/bn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/posts/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/static-site/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-19T12:36:07+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -166,7 +166,7 @@
     <lastmod>2025-05-06T12:54:41+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-04-30T03:19:10+06:00</lastmod>
+    <lastmod>2025-05-19T12:25:15+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"
@@ -204,7 +204,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>
-    <lastmod>2025-04-27T01:31:37+06:00</lastmod>
+    <lastmod>2025-05-19T12:25:15+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bn-BD"

@@ -1,8 +1,8 @@
 <ul class="menu menu--desktop menu--language-selector">
-  <li class="menu__trigger"><i class="lang-icon nf nf-fa-language"></i><i class="dropdown-icon">▾</i></li>
+  <li class="menu__trigger"><i class="lang-icon language-icon"></i><i class="dropdown-icon">▾</i></li>
   <li>
     <ul class="menu__dropdown">
-        <li><a class="current-lang" href="#"><i class="nf nf-cod-triangle_right"></i>{{ .Language.LanguageName }}</a></li>
+        <li><a class="current-lang" href="#"><i class="caret-right"></i>{{ .Language.LanguageName }}</a></li>
       {{ range $.Site.Home.Translations }}
         <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
       {{ end }}

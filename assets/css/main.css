@@ -2,7 +2,7 @@
   --background: #fff6f8;
   --foreground: #45372b;
   --accent: #32858b;
-  --font-size: 1rem;
+  --font-size: 1.1rem;
   --line-height: 1.54em;
   --radius: 0;
   --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
@@ -10,8 +10,9 @@
 
 html[data-theme="dark"] {
   --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
-  --background: #1a170f;
-  --foreground: #eceae5;
+  --background: #0e1923;
+  --foreground: #d6e8ee;
+  --accent: #5accf0;
 }
 
 html {
@@ -27,7 +28,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
+  font-family: "JetBrains Mono", Monaco, Consolas, "Ubuntu Mono", Kalpurush;
   font-size: var(--font-size);
   line-height: var(--line-height);
   background-color: var(--background);
@@ -281,7 +282,7 @@ ol li {
 code,
 kbd {
   font-family:
-    "Fira Code",
+    "JetBrains Mono",
     Monaco,
     Consolas,
     "Ubuntu Mono",
@@ -507,7 +508,7 @@ iframe[src*="youtube.com"] {
 
 @media (max-width: 684px) {
   :root {
-    --font-size: 0.95rem;
+    --font-size: 1rem;
   }
 
   .container {

@@ -21,7 +21,7 @@
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/styles.min.db413c4422bffd724089d4a344a438aeb0f5b16f85ab60458185c64c4367586c.css">
+<link rel="stylesheet" href="http://localhost:1313/styles.min.1c56bad1045717a93997cc584deae2fe08d1c61643bc3e069c31a59504dd7dd8.css">
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -42,7 +42,7 @@
 <meta property="og:title" content="How to Deploy Your Hugo Site to Cloudflare Pages">
 <meta property="og:description" content="Learn how to deploy your static site generated with Hugo to Cloudflare Pages" />
 <meta property="og:url" content="http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/" />
-<meta property="og:site_name" content="Khalid&#39;s Shell" /><meta property="og:image:width" content="1200">
+<meta property="og:site_name" content="Khalid&#39;s Shell" /><meta property="og:image" content="/bn/posts/hugo-deploy-cloudflare-pages/cover.png"><meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 
 
@@ -107,7 +107,7 @@
       
       
         <hr />
-        <li><a class="current-lang" href="#"><i class="nf nf-cod-triangle_right"></i>English</a></li>
+        <li><a class="current-lang" href="#"><i class="caret-right"></i>English</a></li>
       
         <li><a href="http://localhost:1313/bn/">বাংলা</a></li>
       
@@ -119,10 +119,10 @@
     
     
       <ul class="menu menu--desktop menu--language-selector">
-  <li class="menu__trigger"><i class="lang-icon nf nf-fa-language"></i><i class="dropdown-icon">▾</i></li>
+  <li class="menu__trigger"><i class="lang-icon language-icon"></i><i class="dropdown-icon">▾</i></li>
   <li>
     <ul class="menu__dropdown">
-        <li><a class="current-lang" href="#"><i class="nf nf-cod-triangle_right"></i>English</a></li>
+        <li><a class="current-lang" href="#"><i class="caret-right"></i>English</a></li>
       
         <li><a href="http://localhost:1313/bn/">বাংলা</a></li>
       
@@ -207,42 +207,83 @@
       
       
     
-    19-05-2025</time><span class="post-reading-time">4 min read (750 words)</span></div>
-
-  <div class="post-translation">
+    19-05-2025
+              
+                <time class="post-lastmod">Updated: 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    19-05-2025</time>
+            
+              </time><span class="post-reading-time">4 min read (750 words)</span>
+      <span class="post-tags">
         
+          #<a href="http://localhost:1313/en/tags/cloudflare-pages/">Cloudflare Pages</a>&nbsp;
         
-            <button><a href="/bn/posts/hugo-deploy-cloudflare-pages/" hreflang="bn-BD"><i class="nf nf-md-translate"></i> | বাংলা</a></button>
+          #<a href="http://localhost:1313/en/tags/hugo/">Hugo</a>&nbsp;
         
+          #<a href="http://localhost:1313/en/tags/hosting-and-deployment/">Hosting and Deployment</a>&nbsp;
         
-     
-  </div>
-  </div>
-  
-    <span class="post-tags">
-      
-      #<a href="http://localhost:1313/en/tags/cloudflare-pages/">Cloudflare Pages</a>&nbsp;
-      
-      #<a href="http://localhost:1313/en/tags/hugo/">Hugo</a>&nbsp;
-      
-      #<a href="http://localhost:1313/en/tags/hosting-and-deployment/">Hosting and Deployment</a>&nbsp;
-      
-      #<a href="http://localhost:1313/en/tags/static-site/">Static Site</a>&nbsp;
-      
-      #<a href="http://localhost:1313/en/tags/github/">GitHub</a>&nbsp;
-      
-    </span>
-  
-  
+          #<a href="http://localhost:1313/en/tags/static-site/">Static Site</a>&nbsp;
+        
+          #<a href="http://localhost:1313/en/tags/github/">GitHub</a>&nbsp;
+        
+      </span>
+    
+      </div>
+
+      <div class="post-translation">
+        
+          
+            
+              <button class="translate-btn"><i class="translate-icon"></i><a class="translate-link" href="/bn/posts/hugo-deploy-cloudflare-pages/" hreflang="bn-BD">বাংলা</a></button>
+            
+          
+         
+      </div>
+    </div>
+    
+  <img src="/bn/posts/hugo-deploy-cloudflare-pages/cover.png"
+    class="post-cover"
+    alt="How to Deploy Your Hugo Site to Cloudflare Pages"
+    title="Cover Image" />
 
 
-  
-    <div class="table-of-contents">
-      <h2>
-        Table of Contents
-      </h2>
-      <nav id="TableOfContents">
+    
+      <div class="table-of-contents">
+        <h2>
+          Table of Contents
+        </h2>
+        <nav id="TableOfContents">
   <ul>
     <li><a href="#connect-your-github-repo-to-pages">Connect Your GitHub Repo to Pages</a></li>
     <li><a href="#set-up-builds-and-deployments">Set up builds and deployments</a></li>
@@ -250,11 +291,11 @@
     <li><a href="#troubleshooting">Troubleshooting</a></li>
   </ul>
 </nav>
-    </div>
-  
+      </div>
+    
 
-  <div class="post-content"><div>
-        <p>Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I&rsquo;m unsure <a href="https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy">how genuine that is!</a>. Remember, they&rsquo;re an American company. But, that&rsquo;s out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform <a href="https://blog.khalidrafi.me/en/privacy">we use ourselves</a> for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I&rsquo;ll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I&rsquo;ll cover the <strong>Git Integration</strong> method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages. Alright, let&rsquo;s begin!</p>
+    <div class="post-content"><div>
+          <p>Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I&rsquo;m unsure <a href="https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy">how genuine that is!</a>. Remember, they&rsquo;re an American company. But, that&rsquo;s out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform <a href="https://blog.khalidrafi.me/en/privacy">we use ourselves</a> for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I&rsquo;ll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I&rsquo;ll cover the <strong>Git Integration</strong> method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages. Alright, let&rsquo;s begin!</p>
 <h2 id="connect-your-github-repo-to-pages">Connect Your GitHub Repo to Pages<a href="#connect-your-github-repo-to-pages" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ol>
 <li>Log in to the <a href="https://dash.cloudflare.com/">Cloudflare dashboard</a>. Create an account if you haven&rsquo;t already.</li>
@@ -292,10 +333,10 @@
 <p>Still stuck? I provide IT support <a href="/en/services/">services</a> and can help you with this from beginning to end! Feel free to <a href="/en/services/#contact">contact</a> me. Let me deal with this task for you!!</p>
 <p>Thanks for reading. If you liked this tutorial, please share it and support me.</p>
 
-      </div></div>
+        </div></div>
 
-  
     
+      
 <div class="pagination">
   <div class="pagination__title">
     <span class="pagination__title-h">Read other posts</span>
@@ -313,13 +354,13 @@
 </div>
 
 
-  
-
-  
     
 
-  
-</article>
+    
+      
+
+    
+  </article>
 
   </div>
 
@@ -343,7 +384,7 @@
 <script type="text/javascript" src="/bundle.min.js"></script>
 
 
-<script type="module" crossorigin src="http://localhost:1313/search.min.c27b2a469872afc913cfdc2fe55a9f382b905e703d969ee9f233a35e3076bad6.js"></script>
+<script type="module" crossorigin src="http://localhost:1313/search.min.b8a7269609b7ecfc353e1099666a48d74299a902f427ed0e8a4f757f41b716b3.js"></script>
 <script src="http://localhost:1313/dark.js" type="text/javascript"></script>
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 

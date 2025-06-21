@@ -11,8 +11,12 @@
               {{- partial "post-date" . -}}
             {{ end }}
             {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
-              {{ if ne .Date .Lastmod }}
-                &nbsp;{{- partial "post-lastmod" . -}}
+              {{ if not (eq .Date .Lastmod) }}
+              {{ if not (eq .File.BaseFileName "privacy") }}
+                <time class="post-lastmod">{{- partial "post-lastmod" . -}}</time>
+            {{ else }}
+                <time class="privacy-lastmod">{{- partial "post-lastmod" . -}}</time>
+            {{ end }}
               {{ end }}
             {{- end -}}
           </time>
@@ -21,52 +25,53 @@
           <span class="post-author">{{ . }}</span>
         {{- end -}}
         {{- if and (eq .Section "posts") (.Param "readingTime") (eq (.Param "readingTime") true) -}}
-        <span class="post-reading-time">{{ $r := .ReadingTime }}{{ partial "translate-number" $r }} {{ $.Site.Params.minuteReadingTime | default "min read" }} {{ $w := .WordCount }}({{ partial "translate-number" $w }} {{ $.Site.Params.words | default "words" }})</span>
+          <span class="post-reading-time">{{ $r := .ReadingTime }}{{ partial "translate-number" $r }} {{ $.Site.Params.minuteReadingTime | default "min read" }} {{ $w := .WordCount }}({{ partial "translate-number" $w }} {{ $.Site.Params.words | default "words" }})</span>
         {{- end -}}
+
+    {{ if .Params.tags }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+          #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
+        {{ end }}
+      </span>
+    {{ end }}
       </div>
 
-  <div class="post-translation">
-    {{ with .Translations }}
-        {{ range . }}
-        {{ if (eq .Section "posts") }}
-            <button><a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"><i class="nf nf-md-translate"></i> | {{ .Language.LanguageName }}</a></button>
-        {{ end }}
-        {{ end }}
-    {{ end }} 
-  </div>
-  </div>
-  {{ if .Params.tags }}
-    <span class="post-tags">
-      {{ range .Params.tags }}
-      #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
-      {{ end }}
-    </span>
-  {{ end }}
-  {{ partial "cover.html" . }}
-
-  {{ if (.Params.Toc | default .Site.Params.Toc) }}
-    <div class="table-of-contents">
-      <h2>
-        {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
-      </h2>
-      {{ .TableOfContents }}
+      <div class="post-translation">
+        {{ with .Translations }}
+          {{ range . }}
+            {{ if (eq .Section "posts") }}
+              <button class="translate-btn"><i class="translate-icon"></i><a class="translate-link" href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}">{{ .Language.LanguageName }}</a></button>
+            {{ end }}
+          {{ end }}
+        {{ end }} 
+      </div>
     </div>
-  {{ end }}
+    {{ partial "cover.html" . }}
 
-  <div class="post-content">
-    {{- with .Content -}}
-      <div>
-        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+    {{ if (.Params.Toc | default .Site.Params.Toc) }}
+      <div class="table-of-contents">
+        <h2>
+          {{ (.Params.TocTitle | default .Site.Params.TocTitle) | default "Table of Contents" }}
+        </h2>
+        {{ .TableOfContents }}
       </div>
-    {{- end -}}
-  </div>
+    {{ end }}
 
-  {{ if eq .Type $.Site.Params.contentTypeName }}
-    {{ partial "posts_pagination.html" . }}
-  {{ end }}
+    <div class="post-content">
+      {{- with .Content -}}
+        <div>
+          {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+        </div>
+      {{- end -}}
+    </div>
 
-  {{ if not (.Params.hideComments | default false) }}
-    {{ partial "comments.html" . }}
-  {{ end }}
-</article>
+    {{ if eq .Type $.Site.Params.contentTypeName }}
+      {{ partial "posts_pagination.html" . }}
+    {{ end }}
+
+    {{ if not (.Params.hideComments | default false) }}
+      {{ partial "comments.html" . }}
+    {{ end }}
+  </article>
 {{ end }}
