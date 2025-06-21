@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Khalid&#39;s Shell</title>
+    <link>http://localhost:1313/en/posts/</link>
+    <description>Recent content in Posts on Khalid&#39;s Shell</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 19 May 2025 12:36:07 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Your Hugo Site to Cloudflare Pages</title>
+      <link>http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/</guid>
+      <description>&lt;p&gt;Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I&amp;rsquo;m unsure &lt;a href=&#34;https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy&#34;&gt;how genuine that is!&lt;/a&gt;. Remember, they&amp;rsquo;re an American company. But, that&amp;rsquo;s out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform &lt;a href=&#34;https://blog.khalidrafi.me/en/privacy&#34;&gt;we use ourselves&lt;/a&gt; for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I&amp;rsquo;ll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I&amp;rsquo;ll cover the &lt;strong&gt;Git Integration&lt;/strong&gt; method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages. Alright, let&amp;rsquo;s begin!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Do Common PDF Tasks in Linux</title>
+      <link>http://localhost:1313/en/posts/common-pdf-tasks-linux/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/common-pdf-tasks-linux/</guid>
+      <description>&lt;p&gt;We often need to do PDF tasks like splitting pages, merging multiple PDFs, rearranging pages, etc. New Linux users might struggle with these. Let&amp;rsquo;s see how to do these common PDF tasks on Linux:&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-before-we-start&#34;&gt;0. Before we start&lt;/h2&gt;&#xA;&lt;h3 id=&#34;required-packages&#34;&gt;&lt;em&gt;Required Packages&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdfarranger/versions&#34;&gt;PDF Arranger&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/poppler/versions&#34;&gt;Poppler&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdftk/versions&#34;&gt;PDFtk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/graphicsmagick/&#34;&gt;GraphicsMagick&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;installation&#34;&gt;&lt;em&gt;Installation&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Debian:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arch Linux:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S pdfarranger poppler pdftk graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA; &lt;br&gt;&#xA;&lt;h2 id=&#34;1-how-to-split-pdf-pages-in-linux&#34;&gt;1. How to split PDF pages in Linux&lt;/h2&gt;&#xA;&lt;p&gt;You can split the pages of a PDF in two ways - vertically and horizontally. Both can be done in &lt;strong&gt;PDF Arranger&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Install Desktop Extensions in Firefox for Android</title>
+      <link>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/en/posts/firefox-android-desktop-extensions/</guid>
+      <description>&lt;p&gt;Firefox offers a wide range of extensions that enhance browsing on desktop, but many of these are not officially available on Android. Fortunately, there&amp;rsquo;s a workaround to install desktop extensions on Firefox for Android. Here&amp;rsquo;s a step-by-step guide:&lt;/p&gt;&#xA;&lt;h2 id=&#34;steps-to-install-desktop-extensions&#34;&gt;Steps to Install Desktop Extensions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enable the Debug Menu&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open Firefox on your Android device.&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tap the Firefox logo &lt;strong&gt;7 times&lt;/strong&gt; to enable the &lt;strong&gt;Debug Menu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download the Extension&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Code Without a Computer</title>
+      <link>http://localhost:1313/en/posts/coding-without-computer/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/en/posts/coding-without-computer/</guid>
+      <description>&lt;p&gt;Many people want to learn programming but can&amp;rsquo;t because they don&amp;rsquo;t have a computer. Good news for them: you can learn programming using just your mobile phone. Let’s see how:&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-online-code-editors-and-compilers&#34;&gt;1. Online Code Editors and Compilers:&lt;/h2&gt;&#xA;&lt;p&gt;The easiest way to code on a mobile device is by using online code editors and compilers. Search for terms like &lt;em&gt;online code editor&lt;/em&gt; or &lt;em&gt;online compiler&lt;/em&gt; in your search engine (or ask an AI chatbot), and you’ll find many options, such as &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, which is a front-end web development environment. The advantage is that you can code directly from your browser without installing any additional apps. Even if your mobile device isn’t high-end, you can still manage. However, your phone must support internet browsing. If you struggle to find a code editor or compiler that supports your programming language, try searching with the specific programming language name.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux Frozen? Recover and Troubleshoot System Issues with SysRq Commands</title>
+      <link>http://localhost:1313/en/posts/sysrq-linux/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/en/posts/sysrq-linux/</guid>
+      <description>&lt;p&gt;Linux &lt;strong&gt;SysRq&lt;/strong&gt; commands are a lifesaver when your system freezes or becomes unresponsive. The kernel always responds to these commands, no matter what state the computer is in. However, if the kernel itself is completely locked up, that&amp;rsquo;s a different story. The &lt;strong&gt;SysRq&lt;/strong&gt; feature is extremely useful when system issues occur. For example, if your Linux is frozen and stops responding to any input, you can use &lt;strong&gt;SysRq&lt;/strong&gt; command to shut down or reboot the computer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

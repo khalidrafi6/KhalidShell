@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>সকল পোস্ট on খালিদের শেল</title>
+    <link>http://localhost:1313/bn/posts/</link>
+    <description>Recent content in সকল পোস্ট on খালিদের শেল</description>
+    <generator>Hugo</generator>
+    <language>bn-BD</language>
+    <atom:link href="http://localhost:1313/bn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare Pages ব্যবহার করে যেভাবে আপনার Hugo সাইট হোস্ট করবেন</title>
+      <link>http://localhost:1313/bn/posts/hugo-deploy-cloudflare-pages/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/posts/hugo-deploy-cloudflare-pages/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Cloudflare Pages&lt;/strong&gt; হল স্ট্যাটিক সাইট হোস্ট করার জন্য একটি চমৎকার সার্ভিস। এটি সাইটের নিরাপত্তা, গতি ও অন্যান্য মানোন্নয়নের জন্য অনেক ফিচার দেয় যা GitHub Pages দেয় না। এছাড়া, আপাতদৃষ্টিতে এটি গোপনীয়তা (প্রাইভেসি) নিশ্চিত করার ক্ষেত্রেও অনেক প্রতিশ্রুতিশীল, কিন্তু আমি সন্দিহান &lt;a href=&#34;https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy&#34;&gt;তা ঠিক কতটুকু সত্যি!&lt;/a&gt; মনে রাখতে হবে, এটি একটি মার্কিন কোম্পানি। যাইহোক, তা এই লেখার আওতার বাইরে। এই গাইডে আমি আপনার &lt;strong&gt;Hugo&lt;/strong&gt; সাইটটি ডেপ্লয় করার পদ্ধতি নিয়ে আলোচনা করব। মজার ব্যাপার হল, আমিও &lt;a href=&#34;https://blog.khalidrafi.me/bn/privacy&#34;&gt;এই সার্ভিস ব্যবহার করে&lt;/a&gt; আমার এই সাইটটি ডেপ্লয় করেছি! ক্লাউডফ্লেয়ার আপনার স্ট্যাটিক সাইটটি &lt;strong&gt;Pages&lt;/strong&gt; এ ডেপ্লয় করার জন্য তিনটি উপায় দিয়েছে। এই লেখায় আমি &lt;strong&gt;Git Integration&lt;/strong&gt; ব্যবহার করে &lt;strong&gt;Pages&lt;/strong&gt; এ সাইট ডেপ্লয় করার পদ্ধতি দেখাব। এক্ষেত্রে আপনি &lt;strong&gt;GitHub Pages&lt;/strong&gt; এর মত আপনার কমিট পুশ করলে তা সাইটে অটোমেটিক আপলোড হয়ে যাবে। যদিও ক্লাউডফ্লেয়ারের ডকুমেন্টেশন এই প্রক্রিয়ার অনেকটাই কভার করে, তবু &lt;strong&gt;Hugo&lt;/strong&gt; সাইটের জন্য কিছু জরুরি তথ্য অনুপস্থিত। তাই আমি আমার অভিজ্ঞতা থেকে সেসব তথ্য শেয়ার করব যা আপনাকে কিছু ঝামেলা থেকে বাঁচাবে। তো চলুন শুরু করা যাক!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পিডিএফের সাধারণ কাজ লিনাক্সে যেভাবে করবেন</title>
+      <link>http://localhost:1313/bn/posts/common-pdf-tasks-linux/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/posts/common-pdf-tasks-linux/</guid>
+      <description>&lt;p&gt;পিডিএফের কিছু কাজ আমাদের সাধারণত দরকার পড়ে যেমন পৃষ্ঠা ভাগ করা, একাধিক পিডিএফ জুড়ে দিয়ে নতুন পিডিএফ বানানো, পৃষ্ঠার ক্রম পরিবর্তন করা ইত্যাদি। যারা নতুন লিনাক্সে এসেছেন, তারা এই কাজগুলো করতে হিমশিম খেতে পারেন। চলুন দেখে নিই, লিনাক্সে এ কাজগুলো কীভাবে করবেন:&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;০-শর-করর-পরব&#34;&gt;০. শুরু করার পূর্বে&lt;/h2&gt;&#xA;&lt;h3 id=&#34;পরযজনয-পযকজ&#34;&gt;প্রয়োজনীয় প্যাকেজ&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdfarranger/versions&#34;&gt;PDF Arranger&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/poppler/versions&#34;&gt;Poppler&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/pdftk/versions&#34;&gt;PDFtk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://repology.org/project/graphicsmagick/&#34;&gt;GraphicsMagick&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ইনসটল-পরকরয়&#34;&gt;ইন্সটল প্রক্রিয়া&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Debian:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install pdfarranger poppler-utils pdftk-java graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;Arch Linux:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S pdfarranger poppler pdftk graphicsmagick&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;১-পষঠ-ভগ-কর&#34;&gt;১. পৃষ্ঠা ভাগ করা&lt;/h2&gt;&#xA;&lt;p&gt;একটা পিডিএফের পৃষ্ঠাগুলো দুইভাবে ভাগ করা যেতে পারে, লম্বালম্বি আর আনুভূমিক। &lt;strong&gt;PDF Arranger&lt;/strong&gt; এ দুইটাই করতে পারবেন।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ফায়ারফক্স অ্যান্ড্রয়েডে ডেস্কটপ এক্সটেনশন ইন্সটল করার কৌশল</title>
+      <link>http://localhost:1313/bn/posts/firefox-android-desktop-extensions/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/firefox-android-desktop-extensions/</guid>
+      <description>&lt;p&gt;ফায়ারফক্সে ব্রাউজিং উন্নত করার জন্য অসংখ্য এক্সটেনশন আছে। কিন্তু ভাল ভাল কিছু এক্সটেনশন অ্যান্ড্রয়েডে পাওয়া যায় না। সৌভাগ্যক্রমে, ফায়ারফক্স অ্যান্ড্রয়েডে ডেস্কটপ এক্সটেনশন ইন্সটল করার একটি কৌশল আছে। চলুন দেখে নেই সেটা।&lt;/p&gt;&#xA;&lt;h3 id=&#34;ফয়রফকস-অযনডরয়ড-যভব-ডসকটপ-একসটনশন-ইনসটল-করবন&#34;&gt;ফায়ারফক্স অ্যান্ড্রয়েডে যেভাবে ডেস্কটপ এক্সটেনশন ইন্সটল করবেন&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Debug Menu চালু করুন&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;আপনার অ্যান্ড্রয়েড ডিভাইসে ফায়ারফক্স খুলুন।&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;About Firefox&lt;/strong&gt; যান।&lt;/li&gt;&#xA;&lt;li&gt;ফায়ারফক্স লোগোতে &lt;strong&gt;৭ বার&lt;/strong&gt; ট্যাপ করে &lt;strong&gt;Debug Menu&lt;/strong&gt; চালু করুন।&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;এক্সটেনশন ডাউনলোড করুন&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ফায়ারফক্সে &lt;a href=&#34;https://addons.mozilla.org&#34;&gt;addons.mozilla.org&lt;/a&gt; ভিজিট করুন এবং আপনার পছন্দের ডেস্কটপ এক্সটেনশন খুঁজুন।&lt;/li&gt;&#xA;&lt;li&gt;ইন্সটল বাটনের নিচে এখন &lt;strong&gt;Download file&lt;/strong&gt; অপশন দেখতে পাবেন। এটি ট্যাপ করে &lt;code&gt;.xpi&lt;/code&gt; ফাইল ডাউনলোড করুন।&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;এক্সটেনশন ইন্সটল করুন&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>কম্পিউটার ছাড়াই যেভাবে প্রোগ্রামিং করবেন</title>
+      <link>http://localhost:1313/bn/posts/coding-without-computer/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/coding-without-computer/</guid>
+      <description>&lt;p&gt;অনেকেই হয়তো প্রোগ্রামিং শিখতে চান, কিন্তু কম্পিউটার নেই বলে শিখতে পারেন না।  তাদের জন্য সুসংবাদ হচ্ছে, আপনি মোবাইল দিয়েও প্রোগ্রামিং শিখতে পারবেন। চলুন দেখে নিই কম্পিউটার ছাড়া শুধুমাত্র হাতের  মোবাইল দিয়েই কীভাবে প্রোগ্রামিং করবেন :&lt;/p&gt;&#xA;&lt;h2 id=&#34;১-অনলইন-কড-এডটর-ও-কমপইলর&#34;&gt;১. অনলাইন কোড এডিটর ও কম্পাইলার&lt;/h2&gt;&#xA;&lt;p&gt;মোবাইলে প্রোগ্রামিং করার সবচেয়ে সহজ উপায় হচ্ছে অনলাইন কোড এডিটর ও কম্পাইলার। আপনার সার্চ ইঞ্জিনে (অথবা AI chatbot এ) &lt;strong&gt;online code editor&lt;/strong&gt; বা &lt;strong&gt;online compiler&lt;/strong&gt; লিখে সার্চ দিলে অনেক অপশন পেয়ে যাবেন, যেমন &lt;a href=&#34;http://codepen.io/&#34;&gt;CodePen&lt;/a&gt;, যেটা একটা Front-end Web Development Environment. এটার সুবিধা হচ্ছে আপনি ব্রাউজার থেকেই কোডিং করতে পারবেন। কোন বাড়তি অ্যাপ ইন্সটল করতে হবে না। আপনার মোবাইল খুব উঁচুমানের না হলেও কাজ চালিয়ে নিতে পারবেন। তবে মোবাইলটাতে অবশ্যই ইন্টারনেট ব্রাউজ করার সুবিধা থাকতে হবে। যদি সার্চ ইঞ্জিনে আপনার প্রোগ্রামিং ল্যাঙ্গুয়েজের জন্য সাপোর্টেড কোড এডিটর বা কম্পাইলার খুঁজে পেতে সমস্যা হয়, তবে উক্ত ল্যাঙ্গুয়েজটির নাম উল্লেখ করে সার্চ করুন।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>লিনাক্স হ্যাং হয়ে গেছে? SysRq কমান্ড দিয়ে যেভাবে সিস্টেমের সমস্যাগুলো সুন্দরভাবে সামলাবেন</title>
+      <link>http://localhost:1313/bn/posts/sysrq-linux/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/sysrq-linux/</guid>
+      <description>&lt;p&gt;লিনাক্স হ্যাং হয়ে গেলে &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ডগুলো খুব কাজে লাগে। কম্পিউটার যে অবস্থাতেই থাকুক না কেন কার্নেল সবসময় এই কমান্ডগুলোতে সাড়া দেয়। তবে কার্নেল নিজেই সম্পূর্ণ লক হয়ে গেলে ভিন্ন কথা। সিস্টেমে সমস্যা দেখা দিলে &lt;strong&gt;SysRq&lt;/strong&gt; ফিচার অত্যন্ত উপকারী। উদাহরণস্বরূপ, আপনার লিনাক্স হ্যাং হয়ে গেলে এবং কোন ইনপুটেই সাড়া না দিলে, &lt;strong&gt;SysRq&lt;/strong&gt; কমান্ড  ব্যবহার করে কম্পিউটার বন্ধ বা রিবুট করতে পারবেন।&lt;/p&gt;&#xA;&lt;h2 id=&#34;sysrq-কভব-চল-করবন&#34;&gt;SysRq কিভাবে চালু করবেন&lt;/h2&gt;&#xA;&lt;p&gt;আপনার কার্নেল &lt;strong&gt;SysRq&lt;/strong&gt; সাপোর্ট সহ কম্পাইল করা থাকলে, &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; এর মাধ্যমে এটির ফাংশনগুলো চালু/বন্ধ করতে পারবেন। &lt;code&gt;/proc/sys/kernel/sysrq&lt;/code&gt; ফাইলে নিচের মানগুলো থাকতে পারে:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

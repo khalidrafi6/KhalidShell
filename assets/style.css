@@ -87,7 +87,8 @@
 
 .dropdown-icon {
   font-size: 30px;
-  height: 18px;
+  font-style: normal;
+  /* height: 18px; */
 }
 
 .current-lang {
