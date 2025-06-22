@@ -1,3 +1,20 @@
+html[data-theme="dark"] {
+  --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
+  --background: #0e1923;
+  --foreground: #d6e8ee;
+  --accent: #5accf0;
+}
+
+:root {
+  --background: #fff7f1;
+  --foreground: #45372b;
+  --accent: #ff6347;
+  --font-size: 1.1rem;
+  --line-height: 1.54em;
+  --radius: 0;
+  --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
+}
+
 html {
   box-sizing: border-box;
 }
