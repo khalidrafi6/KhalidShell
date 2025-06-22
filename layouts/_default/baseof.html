@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language }}">
+<html lang="{{ $.Site.Language }}" data-theme="dark">
 <head>
   {{ block "title" . }}
     <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
   {{ end }}
   {{ partial "head.html" . }}
-</head>
-<body class="dark-theme">
   <script>
+
+    // the default theme is light
     let mode = localStorage.getItem("dark-mode-storage");
     if (mode === "light") {
-      document.body.classList.remove("dark-theme");
-    } else {
-      document.body.classList.add("dark-theme");
+      document.documentElement.removeAttribute("data-theme");
     }
+
   </script>
+  <style>
+html[data-theme="dark"] {
+  --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
+  --background: #0e1923;
+  --foreground: #d6e8ee;
+  --accent: #5accf0;
+}
+
+:root {
+  --background: #fff7f1;
+  --foreground: #45372b;
+  --accent: #ff6347;
+  --font-size: 1.1rem;
+  --line-height: 1.54em;
+  --radius: 0;
+  --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
+}
+
+
+  </style>
+</head>
+<body>
   {{ if .IsHome }}
   <div itemscope itemtype="https://schema.org/WebSite">
     <link itemprop="url" href="https://blog.khalidrafi.me" />
