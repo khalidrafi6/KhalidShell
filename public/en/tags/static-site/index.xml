@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Site on Khalid&#39;s Shell</title>
+    <link>http://localhost:1313/en/tags/static-site/</link>
+    <description>Recent content in Static Site on Khalid&#39;s Shell</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 22 Jun 2025 16:45:00 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Your Hugo Site to Cloudflare Pages</title>
+      <link>http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hugo-deploy-cloudflare-pages/</guid>
+      <description>&lt;p&gt;Cloudflare Pages is a nice option for hosting a static site. They offer many features for site security, speed and optimization compared to Github Pages. They also seem very promising for privacy, though I&amp;rsquo;m unsure &lt;a href=&#34;https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-web-analytics#privacy&#34;&gt;how genuine that is&lt;/a&gt;! Remember, they&amp;rsquo;re an American company. But, that&amp;rsquo;s out of the scope for this article. This guide focuses on the process of deploying a Hugo site to Cloudflare Pages - a platform &lt;a href=&#34;https://blog.khalidrafi.me/en/privacy&#34;&gt;we use ourselves&lt;/a&gt; for this very site! Though the Cloudflare Docs covers much of the process, it lacks some info for a Hugo site. So, I&amp;rsquo;ll share with you what I learnt from my own experience to save you some headache. Cloudflare offers three ways to deploy your static site to Pages. I&amp;rsquo;ll cover the &lt;strong&gt;Git Integration&lt;/strong&gt; method to deploy your Hugo site to Cloudflare Pages. With this, you can simply push your commits to GitHub to trigger a deployment just like GitHub Pages. Alright, let&amp;rsquo;s begin!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

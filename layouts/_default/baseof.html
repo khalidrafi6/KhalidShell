@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}" data-theme="dark">
 <head>
-  {{ block "title" . }}
-    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
-  {{ end }}
-  {{ partial "head.html" . }}
   <script>
 
     // the default theme is light
@@ -14,6 +10,10 @@
     }
 
   </script>
+  {{ block "title" . }}
+    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+  {{ end }}
+  {{ partial "head.html" . }}
   <style>
 html[data-theme="dark"] {
   --toggle: color-mix(in srgb,var(--accent) 30%,transparent);

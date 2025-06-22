@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Khalid&#39;s Shell</title>
+    <link>http://localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on Khalid&#39;s Shell</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 22 Jun 2025 16:45:00 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare Pages</title>
+      <link>http://localhost:1313/en/tags/cloudflare-pages/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/cloudflare-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>http://localhost:1313/en/tags/github/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hosting and Deployment</title>
+      <link>http://localhost:1313/en/tags/hosting-and-deployment/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/hosting-and-deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/en/tags/hugo/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site</title>
+      <link>http://localhost:1313/en/tags/static-site/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/static-site/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/en/tags/linux/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PDF</title>
+      <link>http://localhost:1313/en/tags/pdf/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/pdf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/en/tags/android/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browsers</title>
+      <link>http://localhost:1313/en/tags/browsers/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/browsers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>http://localhost:1313/en/tags/firefox/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips and Tricks</title>
+      <link>http://localhost:1313/en/tags/tips-and-tricks/</link>
+      <pubDate>Sat, 29 Mar 2025 15:17:22 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/tips-and-tricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/en/tags/programming/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/en/tags/troubleshooting/</link>
+      <pubDate>Sat, 01 Mar 2025 00:05:03 +0600</pubDate>
+      <guid>http://localhost:1313/en/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
