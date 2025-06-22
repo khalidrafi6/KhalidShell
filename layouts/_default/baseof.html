@@ -8,18 +8,16 @@
   <script>
 
     function setInitialTheme(mode) {
-  localStorage.setItem("dark-mode-storage", mode);
+      if (mode === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else if (mode === "light") {
+        document.documentElement.removeAttribute("data-theme");
+      }
+    }
 
-  if (mode === "dark") {
-    document.documentElement.setAttribute("data-theme", "dark");
-  } else if (mode === "light") {
-    document.documentElement.removeAttribute("data-theme");
-  }
-}
-
-// the default theme is light
-let initialTheme = localStorage.getItem("dark-mode-storage") || "dark";
-setInitialTheme(initialTheme);
+    // the default theme is light
+    let initialTheme = localStorage.getItem("dark-mode-storage") || "dark";
+    setInitialTheme(initialTheme);
 
   </script>
 </head>
