@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language }}" data-theme="dark">
+<html lang="{{ $.Site.Language }}">
 <head>
   {{ block "title" . }}
     <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
@@ -10,12 +10,12 @@
     // the default theme is light
     let mode = localStorage.getItem("dark-mode-storage");
     if (mode === "light") {
-      document.documentElement.removeAttribute("data-theme");
+    document.body.classList.remove("dark-theme");
     }
 
   </script>
 </head>
-<body>
+<body class="dark-theme">
   {{ if .IsHome }}
   <div itemscope itemtype="https://schema.org/WebSite">
     <link itemprop="url" href="https://blog.khalidrafi.me" />

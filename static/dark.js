@@ -15,7 +15,7 @@ function setTheme(mode) {
   localStorage.setItem("dark-mode-storage", mode);
 
   if (mode === "dark") {
-    document.documentElement.setAttribute("data-theme", "dark");
+    document.body.classList.add("dark-theme");
     Array.from(toggles).forEach(toggle => {
       toggle.classList.remove("moon");
       toggle.classList.add("sun");
@@ -29,7 +29,7 @@ function setTheme(mode) {
 
       toggle.innerHTML = '🌗';
     });
-    document.documentElement.removeAttribute("data-theme");
+    document.body.classList.remove("dark-theme");
   }
 }
 

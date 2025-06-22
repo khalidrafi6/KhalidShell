@@ -1,4 +1,4 @@
-html[data-theme="dark"] {
+.dark-theme {
   --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
   --background: #0e1923;
   --foreground: #d6e8ee;
