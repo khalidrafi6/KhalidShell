@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script>
+
+    
+    let mode = localStorage.getItem("dark-mode-storage");
+    if (mode === "light") {
+      document.documentElement.removeAttribute("data-theme");
+    }
+
+  </script>
   
     <title>Linux Frozen? Recover and Troubleshoot System Issues with SysRq Commands :: Khalid&#39;s Shell</title>
   
@@ -21,7 +30,7 @@
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/styles.min.2559554ded2a34f9d7e22b0c0caf4e42c068e2735696c104c0dc9cb0ed3eb07e.css">
+<link rel="stylesheet" href="http://localhost:1313/styles.min.73afc0d4910261a264897d70b34c31031a637b1ebf281cd99d339ee160ef900d.css">
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -57,35 +66,6 @@
 
 
 
-  <script>
-
-    
-    let mode = localStorage.getItem("dark-mode-storage");
-    if (mode === "light") {
-      document.documentElement.removeAttribute("data-theme");
-    }
-
-  </script>
-  <style>
-html[data-theme="dark"] {
-  --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
-  --background: #0e1923;
-  --foreground: #d6e8ee;
-  --accent: #5accf0;
-}
-
-:root {
-  --background: #fff7f1;
-  --foreground: #45372b;
-  --accent: #ff6347;
-  --font-size: 1.1rem;
-  --line-height: 1.54em;
-  --radius: 0;
-  --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
-}
-
-
-  </style>
 </head>
 <body>
   
