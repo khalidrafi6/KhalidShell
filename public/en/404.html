@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>404 Page not found :: Khalid&#39;s Shell</title>
@@ -55,6 +55,23 @@
 
 
 
+  <script>
+
+    function setInitialTheme(mode) {
+  localStorage.setItem("dark-mode-storage", mode);
+
+  if (mode === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else if (mode === "light") {
+    document.documentElement.removeAttribute("data-theme");
+  }
+}
+
+
+let initialTheme = localStorage.getItem("dark-mode-storage") || "dark";
+setInitialTheme(initialTheme);
+
+  </script>
 </head>
 <body>
   

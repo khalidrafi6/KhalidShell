@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.Language }}">
+<html lang="{{ $.Site.Language }}" data-theme="dark">
 <head>
   {{ block "title" . }}
     <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
   {{ end }}
   {{ partial "head.html" . }}
+  <script>
+
+    function setInitialTheme(mode) {
+  localStorage.setItem("dark-mode-storage", mode);
+
+  if (mode === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else if (mode === "light") {
+    document.documentElement.removeAttribute("data-theme");
+  }
+}
+
+// the default theme is light
+let initialTheme = localStorage.getItem("dark-mode-storage") || "dark";
+setInitialTheme(initialTheme);
+
+  </script>
 </head>
 <body>
   {{ if .IsHome }}
