@@ -1,4 +1,4 @@
-:root {
+body {
   --docsearch-primary-color: rgb(149, 5, 153);
   --docsearch-text-color: rgb(28, 30, 33);
   --docsearch-spacing: 12px;
@@ -35,7 +35,7 @@
   --docsearch-icon-color: rgb(21, 21, 21);
 }
 
-html[data-theme="dark"] {
+body.dark-theme {
   --docsearch-text-color: rgb(245, 246, 247);
   --docsearch-modal-container-background: rgba(9, 10, 17, 0.8);
   --docsearch-modal-background: rgb(21, 23, 42);

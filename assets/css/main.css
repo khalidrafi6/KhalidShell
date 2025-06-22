@@ -1,11 +1,11 @@
-.dark-theme {
+body.dark-theme {
   --toggle: color-mix(in srgb,var(--accent) 30%,transparent);
   --background: #0e1923;
   --foreground: #d6e8ee;
   --accent: #5accf0;
 }
 
-:root {
+body {
   --background: #fff7f1;
   --foreground: #45372b;
   --accent: #ff6347;
@@ -13,6 +13,10 @@
   --line-height: 1.54em;
   --radius: 0;
   --toggle: color-mix(in srgb,var(--accent) 15%,transparent);
+  --code-border: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --first-tone: var(--accent);
+  --second-tone: color-mix(in srgb, var(--accent) 70%, transparent);
+  --comment: color-mix(in srgb, var(--foreground) 50%, transparent);
 }
 
 html {
