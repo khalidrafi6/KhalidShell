@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.148.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script>
+    let mode = localStorage.getItem("dark-mode-storage");
+    if (mode === "light") {
+      document.documentElement.removeAttribute("data-theme");
+    }
+  </script>
   
     <title>Khalid&#39;s Shell</title>
   
@@ -58,12 +64,6 @@
 
 
 
-  <script>
-    let mode = localStorage.getItem("dark-mode-storage");
-    if (mode === "light") {
-      document.documentElement.removeAttribute("data-theme");
-    }
-  </script>
 </head>
 <body>
   
